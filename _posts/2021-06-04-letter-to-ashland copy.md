@@ -1,0 +1,17 @@
+---
+layout: post
+title:  'New Song - "Why Not"'
+date:   2021-09-10
+image:  'why-not-cover.jpg'
+tags:   raps single 
+---
+
+This song started back in September 2020. [RizonielTV](https://youtube.com/rizonieltv) sent me an instrumental with this crazy beat switch. I immediatly started freestyling ideas and had soon written so much I had to extend the beat, looping it. I sent it back and got a reply with 2 *more* beats on the end. These beats, especially beat 3, lit me up. I scrapped most of the conscience bars I'd written and started again with a completely different character in the drivers' seat. All shit-talk. By the time I had the third part finished I was grinning ear to ear and jumping around in the studio.
+
+The 4th part caught me stuck. Where to go from here? I said fuck it and started freestyling. The 4th part is nearly all one take from a freestyle. I punched in a couple of parts, but it was a good reminder that intuition reigns supreme, especially in music.
+
+The hardest part was mixing. With 4 different beats (5 if you include the outro), this song has a lot of different instruments and spaces to make sound cohesive. It's like a fucking EP. And the absolute hardest part was the bass. It's always the bass. In part 3 there's an 808 and another bass that were eating each other alive. I must have mixed this section at least 20 times.
+
+The result is an absolute journey. It starts introspective. It gets weird. It goes full ego. It again finds its center and concludes: why not?
+
+### [Listen to Why Not](https://songwhip.com/dylanhand/why-not)
