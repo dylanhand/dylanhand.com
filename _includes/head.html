@@ -1,8 +1,10 @@
 <head>
   <meta charset="utf-8">
-  {% if site.google-analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
+  {% unless site.url contains "localhost" -%}
+    {%- if site.google-analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+  {%- endunless %}
 
   <!-- mobile responsive meta -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
