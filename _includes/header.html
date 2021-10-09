@@ -11,7 +11,6 @@
       </div>
     </a>
 
-    <!--
     <nav class="main-nav">
       <span class="main-nav__open">menu</span>
       <div class="main-nav__box">
@@ -21,18 +20,15 @@
             <a href="{{site.baseurl}}/" class="nav__link">Home</a>
           </li>
           {%- for page in site.pages -%}
-            {%- unless page.name == 'tags.html' or page.name == '404.html' -%}
-              {%- if page.title -%}
-              <li class="nav__item">
-                <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
-              </li>
-              {%- endif -%}
-            {%- endunless -%}
+            {%- if page.show-in-nav and page.title -%}
+            <li class="nav__item">
+              <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+            </li>
+            {%- endif -%}
           {%- endfor -%}
         </ul>
       </div>
     </nav>
-    -->
 
   </header>
   <!-- end header -->

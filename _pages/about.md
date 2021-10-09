@@ -2,17 +2,11 @@
 layout: page
 title: About
 permalink: /about/
-image: '/assets/img/profile-pic.jpg'
+image: 'profile-pic-red.jpg'
+show-in-nav: true
 ---
 
-I'm Dylan. 
+Combining effortless flows, intricate rhyme schemes, and relatable messages, Dylan Hand raps with personality and versatility. The Oregon native made his start releasing underground tracks and competing in freestyle rap competitions before leaving to live abroad and study music production and audio engineering. Now a resident of Gothenburg, Sweden, he’s begun again releasing music, this time with a newfound hunger, a well-sharpened skill set, and a talented team of musicians backing the cause.
 
-***
-
-> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.
-
-***
-
-Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals after maintainable products.
-
-Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+<br>
+Listen & follow using the links below.
