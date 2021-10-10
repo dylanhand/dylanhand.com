@@ -14,9 +14,6 @@
 .article__image-box {
   display: table;
   margin-right: 30px;
-  @media (max-width: $mobile) {
-    display: none;
-  }
 }
 
 .article__image {
@@ -28,6 +25,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: $gray-white;
+  @media (max-width: $mobile) {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .article__title__container {
@@ -45,6 +46,8 @@
 .article__title {
   display: inline-block;
   margin: 0;
+  line-height: 1.8rem;
+  margin-top: -8px; // System font on iOS has internal padding at the top. This lines it up with the image
   a {
     font-size: 1.4rem;
     font-weight: 600;
@@ -52,6 +55,9 @@
     &:hover {
       color: $primary-color;
     }
+  }
+  @media (max-width: $mobile) {
+    margin-bottom: 0.3rem;
   }
 }
 
