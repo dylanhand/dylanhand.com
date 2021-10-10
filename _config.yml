@@ -1,6 +1,6 @@
 title: Dylan Hand
 subtitle:
-logo: # you can add own logo.
+logo: &profile-pic '/assets/img/profile-pic.jpg'
 description: Homepage of Dylan Hand.
 # baseurl: "/derrick" # the subpath of your site, e.g. /blog
 url: "http://dylanhand.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -10,7 +10,7 @@ url: "http://dylanhand.com" # the base hostname & protocol for your site, e.g. h
 author:
   name: Dylan Hand
   tagline: apps & raps
-  image: '/assets/img/profile-pic.jpg'
+  image: *profile-pic
   bio: Listen to the new single <a href="https://songwhip.com/dylanhand/why-not">"Why Not"</a>
   email: dylan.hand@gmail.com
 
