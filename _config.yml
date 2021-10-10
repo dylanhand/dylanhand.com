@@ -53,6 +53,18 @@ google-analytics: G-KRGRNSZ5Y9 # add your identifier. For example UA-99631805-1.
 images-path: /assets/img/
 thumbnails-path: /assets/img/thumbs/
 
+
+# Jekyll-seo-tag plugin
+social:
+  name: Dylan Hand
+  links:
+    - https://instagram.com/dylanhand
+    - https://twitter.com/dylanhand
+    - https://open.spotify.com/artist/5jf6ZqP5NcRcNlyeqcbYWt?si=DSNjmhwsSDWYs2hrE9WmTg
+    - https://soundcloud.com/dylanhand
+    - https://www.youtube.com/channel/UCc5OZ-O78NcvLi2XVWf6KpA
+
+
 # Build settings
 markdown: kramdown
 permalink: pretty
