@@ -57,9 +57,6 @@ disqus-identifier: # mr-brown # add your shortname for Disqus Comment. For examp
 # Google Analytics
 google-analytics: G-KRGRNSZ5Y9 # add your identifier. For example UA-99631805-1.
 
-images-path: /assets/img/
-thumbnails-path: /assets/img/thumbs/
-
 
 # Jekyll-seo-tag plugin
 social:

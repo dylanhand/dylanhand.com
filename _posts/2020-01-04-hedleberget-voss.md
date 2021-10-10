@@ -2,7 +2,7 @@
 layout: post
 title:  "Voss, Norway"
 date:   2020-01-04
-image:  'voss/turbo-railway-2.jpg'
+image:  '/assets/img/voss/turbo-railway-2.jpg'
 tags:   travel photography norway
 ---
 

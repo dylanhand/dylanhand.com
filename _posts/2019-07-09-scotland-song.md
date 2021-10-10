@@ -2,7 +2,7 @@
 layout: post
 title:  "Video: I went to Scotland and made a song out of explosions, laughs, and screams"
 date:   2019-07-09
-image:  'scotland-rap.jpg'
+image:  '/assets/img/scotland-rap.jpg'
 tags:   raps po-33 goat
 ---
 

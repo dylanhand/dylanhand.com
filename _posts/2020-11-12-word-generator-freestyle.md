@@ -2,7 +2,7 @@
 layout: post
 title:  "Video: Word Generator Freestyle"
 date:   2020-11-12
-image:  'word-generator-freestyle-2.jpg'
+image:  '/assets/img/word-generator-freestyle-2.jpg'
 tags:   raps freestyle word-generator
 ---
 

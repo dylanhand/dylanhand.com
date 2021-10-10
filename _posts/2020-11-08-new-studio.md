@@ -2,7 +2,7 @@
 layout: post
 title:  "New Studio"
 date:   2020-11-08
-image:  'studio/studio-close.jpg'
+image:  '/assets/img/studio/studio-close.jpg'
 tags:   raps studio
 ---
 

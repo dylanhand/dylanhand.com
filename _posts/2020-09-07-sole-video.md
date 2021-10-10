@@ -2,7 +2,7 @@
 layout: post
 title:  "Music Video - \"Sole\""
 date:   2020-09-07
-image:  'fuckin-muffin.jpg'
+image:  '/assets/img/fuckin-muffin.jpg'
 tags:   raps
 ---
 

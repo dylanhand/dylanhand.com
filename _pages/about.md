@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: 'profile-pic-red.jpg'
+image: '/assets/img/profile-pic-red.jpg'
 show-in-nav: true
 ---
 
