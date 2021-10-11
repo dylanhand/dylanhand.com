@@ -11,7 +11,7 @@ layout: default
         <time datetime="{{ page.date | date_to_xmlschema }}">Published {{page.date | date: '%b %d, %Y'}}</time>
       </div>
       {% if page.image %}
-      <div class="post-image img-blur" style="background-image: url({{site.baseurl}}{{site.images-path}}{{page.image}})"></div>
+      <div class="post-image img-blur" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
       {% endif %}
     </div>
 
@@ -34,7 +34,7 @@ layout: default
           <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m352 128.4-32.3-32.4-159.7 160 159.7 160 32.3-32.4-127.3-127.6z"/></svg>
         </div>
         <span class="post__nav-wrapper">
-          <div class="post__nav-image" style="background-image: url({{site.baseurl}}{{site.images-path}}{{page.previous.image}})"></div>
+          <div class="post__nav-image" style="background-image: url({{site.baseurl}}{{page.previous.image}})"></div>
           <h2 class="post__nav-title"><time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%b %d, %Y'}}</time> <br>{{page.previous.title}}</h2>
         </span>
       </a>
@@ -46,7 +46,7 @@ layout: default
           <svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m160 128.4 32.3-32.4 159.7 160-159.7 160-32.3-32.4 127.3-127.6z"/></svg>
         </div>
         <span class="post__nav-wrapper">
-          <div class="post__nav-image" style="background-image: url({{site.baseurl}}{{site.images-path}}{{page.next.image}})"></div>
+          <div class="post__nav-image" style="background-image: url({{site.baseurl}}{{page.next.image}})"></div>
           <h2 class="post__nav-title"><time datetime="{{ page.date | date_to_xmlschema }}">{{page.date | date: '%b %d, %Y'}}</time> <br>{{page.next.title}}</h2>
         </span>
       </a>
