@@ -126,7 +126,7 @@ task :build do |t|
   puts "Generating image thumbnails"
   system_call('./assets/scripts/generate-thumbnails.sh')
   puts "Building with production parameters"
-  system_call('bundle exec jekyll build')
+  system_call('JEKYLL_ENV=production bundle exec jekyll build')
 end
 
 desc "Deploy code and site in appropriate branches"

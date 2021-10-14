@@ -1,10 +1,10 @@
 <head>
   <meta charset="utf-8">
-  {% unless site.url contains "localhost" -%}
+  {% if jekyll.environment == "production" -%}
     {%- if site.google-analytics -%}
       {%- include google-analytics.html -%}
     {%- endif -%}
-  {%- endunless %}
+  {%- endif %}
 
   <!-- mobile responsive meta -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
