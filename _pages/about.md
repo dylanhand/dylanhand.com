@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Dylan Hand | About
 permalink: /about/
 image: '/assets/img/profile-pic-red.jpg'
 ---

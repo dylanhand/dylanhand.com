@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Privacy Policy
+title: Dylan Hand | Privacy Policy
 permalink: /privacy/
 ---
 
