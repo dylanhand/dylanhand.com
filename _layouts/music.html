@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="container">
+  <!-- begin music -->
+  <article class="page">
+
+    <div class="page__head" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+      <h1 class="page__title">{{ page.title | escape }}</h1>
+      <div class="music__grid">
+      {% assign reversed-songs = site.releases | reverse %}
+      {% for song in reversed-songs %}
+        <div class="music__release">
+            <a href="{{ song.permalink }}">
+              {%- if song.image %}
+                <div class="music__release__image release__image">
+                    <img src="{{site.baseurl}}{{song.image}}" />
+                </div>
+              {% endif -%}
+          
+              <div class="release__info">
+                <div class="music__release__title release__title">
+                    {{ song.name }}
+                </div>
+              <div class="music__release__artists release__artists">
+                by
+                {%- if song.artists %}
+                  {%- for artist in song.artists %}
+                      {{ artist }}{%- if forloop.last == false -%},{%- endif -%} 
+                  {%- endfor -%}
+                {% else %}
+                  Dylan Hand
+                {% endif -%}
+                </div>
+              </div>
+            </a>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+
+    <div class="page__content" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
+    {{ content }}
+    </div>
+
+  </article>
+  <!-- end music -->
+</div>

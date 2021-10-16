@@ -1,0 +1,31 @@
+.music__grid {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10vw;
+  @media (max-width: $mobile) {
+    column-gap: 30px;
+  }
+}
+
+.music__release {
+  a {
+    color: $dark;
+  }
+}
+
+.music__release__image { 
+  width: auto !important;
+}
+
+.music__release__title { 
+  @media (max-width: $mobile) {
+    font-weight: 500 !important;
+  }
+}
+
+.music__release__artists { 
+  @media (max-width: $mobile) {
+    display: none;
+  }
+}
