@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="container">
+  <article class="page">
+    {%- if page.image %}
+      <div class="release__image">
+        <img src="{{site.baseurl}}{{page.image}}" />
+      </div>
+    {% endif -%}
+
+    <div class="release__info">
+      <div class="release__title">
+        {{ page.name }}
+      </div>
+      {%- if page.artists %}
+      <div class="release__artists">
+        by
+          {%- for artist in page.artists %}
+            {{ artist }}{%- if forloop.last == false -%},{%- endif -%} 
+          {%- endfor -%}
+      </div>
+      {% endif -%}
+    </div>
+
+    {% if page.bandcamp %}
+      {% include song-link.html text="Bandcamp" link=page.bandcamp icon="TODO" %}
+    {% endif %}
+    {% if page.spotify %}
+      {% include song-link.html text="Spotify" link=page.spotify icon="TODO" %}
+    {% endif %}
+    {% if page.apple-music %}
+      {% include song-link.html text="Apple Music" link=page.apple-music icon="TODO" %}
+    {% endif %}
+    {% if page.soundcloud %}
+      {% include song-link.html text="SoundCloud" link=page.soundcloud icon="TODO" %}
+    {% endif %}
+    {% if page.youtube %}
+      {% include song-link.html text="YouTube" link=page.youtube icon="TODO" %}
+    {% endif %}
+    {% if page.amazon-music %}
+      {% include song-link.html text="Amazon Music" link=page.amazon-music icon="TODO" %}
+    {% endif %}
+    {% if page.tidal %}
+      {% include song-link.html text="Tidal" link=page.tidal icon="TODO" %}
+    {% endif %}
+    {% if page.deezer %}
+      {% include song-link.html text="Deezer" link=page.deezer icon="TODO" %}
+    {% endif %}
+    </article>
+</div>

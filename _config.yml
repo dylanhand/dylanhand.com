@@ -89,6 +89,11 @@ defaults:
 include:
   - _pages
 
+# Collections
+collections:
+  releases: 
+    output: true
+
 # Tags
 tag_page_dir:         tag
 tag_page_layout:      tag-page
