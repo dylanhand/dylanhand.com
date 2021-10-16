@@ -36,12 +36,29 @@
     transition: color 0ms;
     &:hover {
       background-color: $primary-color;
-      color: white;
+      color: $white;
     }
   }
     .selected { 
-      background-color: $primary-color;
-      color: white;
+      // option 1
+      // color: $primary-color;
+
+      // option 2
+      // border-bottom: 0.1rem solid $dark;
+      // border-radius: 0;
+      // &:hover {
+      //   border-bottom: 0 solid $dark;
+      //   color: $dark;
+      //   border-radius: 3px;
+      //   color: $white;
+      // }
+
+      // option 3
+      border: 0.1rem solid $dark;
+      &:hover {
+        background-color: $white;
+        color: $dark;
+      }
     }
 }
 
