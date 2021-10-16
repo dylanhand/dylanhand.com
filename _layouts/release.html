@@ -14,14 +14,16 @@ layout: default
       <div class="release__title">
         {{ page.name }}
       </div>
-      {%- if page.artists %}
       <div class="release__artists">
         by
+        {%- if page.artists %}
           {%- for artist in page.artists %}
             {{ artist }}{%- if forloop.last == false -%},{%- endif -%} 
           {%- endfor -%}
+        {% else %}
+          Dylan Hand
+        {% endif -%}
       </div>
-      {% endif -%}
     </div>
 
     {% if page.bandcamp %}
