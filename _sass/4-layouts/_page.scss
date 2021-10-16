@@ -19,9 +19,9 @@
   line-height: 55px;
 }
 
-.page-image {
+.page__image {
   margin-bottom: 45px;
-  border-radius: 5px;
+  border-radius: $border-radius;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

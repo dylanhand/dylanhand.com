@@ -11,7 +11,7 @@ layout: default
         <time datetime="{{ page.date | date_to_xmlschema }}">Published {{page.date | date: '%b %d, %Y'}}</time>
       </div>
       {% if page.image %}
-      <div class="post-image img-blur" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
+      <div class="post__image" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
       {% endif %}
     </div>
 
