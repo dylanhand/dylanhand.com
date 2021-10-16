@@ -1,6 +1,6 @@
 ---
 layout: music
-title: Dylan Hand | Music
+title: Music
 permalink: /music/
 image: '/assets/img/profile-pic.jpg'
 ---
