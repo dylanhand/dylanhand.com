@@ -12,12 +12,12 @@
       font-size: 1.15rem;
       font-weight: 500;
       color: $dark;
-      border: 1px solid $dark;
+      border: 0.1rem solid $dark;
       border-radius: $border-radius;
       &:hover {
         color: $white;
         background-color: $primary-color;
-        border: 1px solid $white;
+        border: 0.1rem solid $white;
       }
     }
   }
@@ -29,11 +29,11 @@
   border-radius: $border-radius;
   overflow: hidden;
   width: 50vw;
-  max-width: 300px;
+  max-width: 340px;
 }
 
 .release__info { 
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 
   .release__title {
     margin-bottom: 0.5rem;
