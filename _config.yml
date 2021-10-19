@@ -15,32 +15,28 @@ author:
   email: dylan.hand@gmail.com
 
 
-instagram-link: &instagram-link https://instagram.com/dylanhand 
-twitter-link: &twitter-link https://twitter.com/dylanhand
-spotify-link: &spotify-link https://open.spotify.com/artist/5jf6ZqP5NcRcNlyeqcbYWt?si=DSNjmhwsSDWYs2hrE9WmTg
-apple-music-link: &apple-music-link https://music.apple.com/us/artist/dylan-hand/1525131681
-soundcloud-link: &soundcloud-link https://soundcloud.com/dylanhand
-youtube-link: &youtube-link https://www.youtube.com/channel/UCc5OZ-O78NcvLi2XVWf6KpA
-
 # Contact links
 contact:
   - name: Instagram
-    link: *instagram-link
+    link: &instagram-link https://instagram.com/dylanhand
     icon: instagram
   - name: Twitter
-    link: *twitter-link
+    link: &twitter-link https://twitter.com/dylanhand
     icon: twitter
+  - name: Bandcamp
+    link: &bandcamp-link https://dylanhand.bandcamp.com/
+    icon: bandcamp
   - name: Spotify
-    link: *spotify-link
+    link: &spotify-link https://open.spotify.com/artist/5jf6ZqP5NcRcNlyeqcbYWt?si=DSNjmhwsSDWYs2hrE9WmTg
     icon: spotify
   - name: Apple Music
-    link: *apple-music-link
+    link: &apple-music-link https://music.apple.com/us/artist/dylan-hand/1525131681
     icon: itunes
   - name: SoundCloud
-    link: *soundcloud-link
+    link: &soundcloud-link https://soundcloud.com/dylanhand
     icon: soundcloud
   - name: YouTube
-    link: *youtube-link
+    link: &youtube-link https://www.youtube.com/channel/UCc5OZ-O78NcvLi2XVWf6KpA
     icon: youtube
       # - name: Facebook
       # link: https://facebook.com/dylan.hand
@@ -64,6 +60,7 @@ social:
   links:
     - *instagram-link
     - *twitter-link
+    - *bandcamp-link
     - *spotify-link
     - *apple-music-link
     - *soundcloud-link
