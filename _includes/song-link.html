@@ -1,7 +1,13 @@
 <div class="release__link__container">
     <a href="{{ include.link }}">
         <div class="release__link">
+            <svg class="release__icon">
+                <use class="release__icon" href="#icon-{{ include.icon }}"> </use>
+            </svg>
             {{ include.text }}
+            <svg class="release__icon">
+                <use class="release__icon" href="#icon-chevron-right"> </use>
+            </svg>
         </div>
     </a>
 </div>

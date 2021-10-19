@@ -7,7 +7,9 @@
   text-align: center;
   a {
     .release__link { 
-      text-align: center;
+      display: grid;
+      grid-template-columns: $big-text-size 1fr $big-text-size;
+      align-items: center;
       padding: 1rem;
       font-size: $big-text-size;
       font-weight: 500;
@@ -18,9 +20,17 @@
         color: $white;
         background-color: $primary-color;
         border: 0.1rem solid $white;
+        .release__icon { 
+          fill: $white;
+        }
       }
     }
   }
+}
+
+.release__icon { 
+  height: $big-text-size;
+  width: $big-text-size;
 }
 
 .release__image {
