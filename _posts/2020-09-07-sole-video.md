@@ -15,4 +15,4 @@ Check it out:
 Big thanks to [Photography & sons](http://www.photographyandsons.se/) who directed, shot, and edited my portion of the vid. My part was filmed in Sweden. Rotaris' was filmed in Australia.
 
 <br>
-[Listen to the song on all platforms here.](https://rotarismusic.com/sole-listen)
+[Listen to the song on all platforms here.]({{ site.baseurl }}/sole)

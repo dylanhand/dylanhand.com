@@ -12,4 +12,4 @@ It's been a strange year. For me it's been 3 years since I've been home. The son
 
 -Dylan
 
-### [Listen to Letter to Ashland](https://songwhip.com/dylanhand/letter-to-ashland)
+### [Listen to Letter to Ashland]({{ site.baseurl }}/letter-to-ashland)
