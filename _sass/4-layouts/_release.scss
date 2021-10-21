@@ -1,13 +1,4 @@
 /* Release Page */
-@mixin blueify-button {
-  color: $white;
-  background-color: $primary-color;
-  border: 0.1rem solid $white;
-  .release__icon { 
-    fill: $white;
-  }
-}
-
 .release__link__container { 
   margin: auto;
   margin-bottom: 1rem;
@@ -26,11 +17,18 @@
       border-radius: $border-radius;
       @media (min-width: $mobile) {
         &:hover {
-          @include blueify-button;
+          color: $white;
+          background-color: $primary-color;
+          border: 0.1rem solid $white;
+          .release__icon { 
+            fill: $white;
+          }
         }
       }
-      &:active {
-        @include blueify-button;
+      @media (max-width: $mobile) {
+        &:active {
+          background-color: $gray-white;
+        }
       }
     }
   }
