@@ -62,6 +62,15 @@
     }
 }
 
+.main-nav__menu {
+  height: 22px;
+  width: 22px;
+}
+
+use.main-nav__menu {
+  color: $dark;
+}
+
 /* Mobile Nav */
 .main-nav__open {
   position: absolute;
@@ -73,6 +82,8 @@
   opacity: 0;
   cursor: pointer;
   @media (max-width: $mobile) {
+    position: relative;
+    top: 0;
     visibility: visible;
     opacity: 1;
   }
@@ -80,7 +91,7 @@
 
 .main-nav__close {
   position: fixed;
-  top: 2.52rem;
+  top: 2.25rem;
   right: 30px;
   font-size: $big-text-size;
   visibility: hidden;

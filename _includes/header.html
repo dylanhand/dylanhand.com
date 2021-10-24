@@ -12,9 +12,17 @@
     </a>
 
     <nav class="main-nav">
-      <span class="main-nav__open">menu</span>
+      <span class="main-nav__open">
+        <svg class="main-nav__menu">
+          <use class="main-nav__menu" href="#icon-menu"></use>
+        </svg>
+      </span>
       <div class="main-nav__box">
-        <span class="main-nav__close">close</span>
+        <span class="main-nav__close">
+          <svg class="main-nav__menu">
+            <use class="main-nav__menu" href="#icon-close"></use>
+          </svg>
+        </span>
         <ul class="nav__list list-reset">
           {%- for item in site.data.navigation %}
             <li class="nav__item">
