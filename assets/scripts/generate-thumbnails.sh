@@ -19,7 +19,7 @@ function create_thumbnail_folder_structure() {
 function make_thumbnails() {
   for file in $(find . -not -path "./thumbs/*" -type f -iname "*[.jpg, .png]")
   do
-    filename=$(echo $file | cut -c 3-) # cut off the "./"
+    filename=$(echo "${file%.*}.webp" | cut -c 3-) # cut off the "./" and replace the file extension with .webp
     if [ ! -f "./thumbs/$filename" ]; then
       echo "Creating thumbnail for: $file"
       convert $file -thumbnail 200x200 "./thumbs/$filename"
