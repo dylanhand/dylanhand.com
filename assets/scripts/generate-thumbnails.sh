@@ -23,7 +23,7 @@ function make_thumbnails() {
     filename_jpg=$(echo "$file" | cut -c 3-) # cut off the "./"
     if [ ! -f "./thumbs/$filename_jpg" ]; then
       echo "Creating jpg thumbnail for: $file"
-      convert $file -thumbnail 200x200 "./thumbs/$filename_jpg"
+      convert $file -thumbnail 200x200 -quality 85 "./thumbs/$filename_jpg"
     fi
 
     # webp thumbnails
