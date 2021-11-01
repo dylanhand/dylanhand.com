@@ -41,19 +41,19 @@ function make_thumbnails() {
 function optimize_images() {
   for file in $(find . -not \( -path "$optimized_path" -prune \) -not \( -path "$thumbs_path" -prune \) -type f -iname "*[.jpg, .png]")
   do
-    # jpg thumbnails
+    # jpg
     filename_jpg=$(echo "$file" | cut -c 3-) # cut off the "./"
     if [ ! -f "$optimized_path/$filename_jpg" ]; then
-      echo "Optimizing: $file"
+      echo "Optimizing as jpg: $file"
       convert "$filename_jpg" -resize "1920>" -quality 85 "$optimized_path/$filename_jpg"
     fi
 
-    # webp thumbnails
-    # filename_webp=${filename_jpg%.*}.webp
-    # if [ ! -f "./thumbs/$filename_webp" ]; then
-      # echo "Creating webp thumbnail for: $file"
-      # convert $file -thumbnail 200x200 "./thumbs/$filename_webp"
-    # fi
+    # webp
+    filename_webp=${filename_jpg%.*}.webp
+    if [ ! -f "$optimized_path/$filename_webp" ]; then
+      echo "Optimizing as webp: $file"
+      convert "$filename_jpg" -resize "1920>" -quality 85 "$optimized_path/$filename_webp"
+    fi
   done
 }
 
