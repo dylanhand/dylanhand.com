@@ -1,4 +1,9 @@
 /* Article */
+
+img {
+  border-radius: $border-radius;
+}
+
 .article {
   display: flex;
   margin-bottom: 50px;
