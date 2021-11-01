@@ -7,7 +7,7 @@ cd $parent_path # go to the scripts folder
 cd ../img
 
 thumbs_path="./thumbs"
-optimized_path="./_optimized"
+optimized_path="./optimized"
 
 # creates the same directory structure in the given folder
 function create_folder_structure() {
