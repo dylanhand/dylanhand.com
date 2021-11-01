@@ -33,7 +33,7 @@ function make_thumbnails() {
     filename_webp=${filename_jpg%.*}.webp
     if [ ! -f "$thumbs_path/$filename_webp" ]; then
       echo "Creating webp thumbnail for: $file"
-      convert $file -thumbnail 200x200 "$thumbs_path/$filename_webp"
+      convert $file -thumbnail 200x200 -quality 85 "$thumbs_path/$filename_webp"
     fi
   done
 }
