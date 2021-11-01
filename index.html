@@ -7,7 +7,9 @@ layout: default
   <!-- <section class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700"> -->
   <section class="author">
     <div class="author__inner">
-      <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
+      <div class="author__img" alt="{{site.author.name}}">
+        {% include picture.html image=site.author.image %}
+      </div>
       <div class="author__contact__profile">
         {% include social-icons.html %}
       </div>

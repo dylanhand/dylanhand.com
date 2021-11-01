@@ -2,7 +2,7 @@
 layout: post
 title:  "Video: Freestyling with a random word generator"
 date:   2019-07-02
-image:  '/assets/img/word-generator-freestyle.jpg'
+image:  '/assets/img/optimized/word-generator-freestyle.jpg'
 tags:   raps freestyle word-generator
 ---
 

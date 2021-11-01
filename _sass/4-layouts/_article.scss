@@ -1,4 +1,9 @@
 /* Article */
+
+img {
+  border-radius: $border-radius;
+}
+
 .article {
   display: flex;
   margin-bottom: 50px;
@@ -12,7 +17,6 @@
 }
 
 .article__image-box {
-  display: table;
   margin-right: 30px;
   @media (max-width: $mobile) {
     margin-right: 20px;
@@ -23,11 +27,12 @@
   display: block;
   width: 100px;
   height: 100px;
-  border-radius: $border-radius;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: $gray-white;
+  img {
+    object-fit: cover;
+    border-radius: $border-radius;
+    width: 100%;
+    height: 100%;
+  }
   @media (max-width: $mobile) {
     width: 70px;
     height: 70px;

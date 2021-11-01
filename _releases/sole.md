@@ -3,7 +3,7 @@ layout: release
 name: Sole
 permalink: /sole
 date: 2020-08-17
-image: '/assets/img/sole.jpg'
+image: '/assets/img/optimized/sole.jpg'
 artists: 
     - Rotaris
     - Dylan Hand

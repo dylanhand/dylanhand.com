@@ -15,7 +15,7 @@ layout: default
             <a href="{{ song.permalink }}">
               {%- if song.image %}
                 <div class="music__release__image release__image">
-                    <img src="{{site.baseurl}}{{song.image}}" />
+                  {%- include picture.html image=song.image %}
                 </div>
               {% endif -%}
           

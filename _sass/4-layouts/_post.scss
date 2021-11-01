@@ -27,14 +27,13 @@
 
 .post__image {
   margin-bottom: 45px;
-  border-radius: $border-radius;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  &:after {
-    content: '';
-    display: table;
-    padding-top: 65%;
+  img {
+    display: block;
+    height: 65vw;
+    max-height: 432px;
+    margin: auto;
+    object-fit: contain;
+    border-radius: $border-radius;
   }
 }
 

@@ -6,7 +6,7 @@ layout: default
   <article class="page">
     {%- if page.image %}
       <div class="release__image">
-        <img src="{{site.baseurl}}{{page.image}}" />
+        {%- include picture.html image=page.image %}
       </div>
     {% endif -%}
 

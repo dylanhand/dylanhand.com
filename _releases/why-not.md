@@ -3,7 +3,7 @@ layout: release
 name: Why Not
 permalink: /why-not
 date: 2021-09-10
-image: '/assets/img/why-not-cover.jpg'
+image: '/assets/img/optimized/why-not-cover.jpg'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/why-not
 spotify: https://open.spotify.com/track/24myUd0PeNAnGuoKV15vZy

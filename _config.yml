@@ -1,6 +1,6 @@
 title: Dylan Hand
 subtitle:
-logo: &profile-pic '/assets/img/profile-pic.jpg'
+logo: &profile-pic '/assets/img/optimized/profile-pic.jpg'
 description: Homepage of Dylan Hand.
 # baseurl: "/derrick" # the subpath of your site, e.g. /blog
 url: "http://dylanhand.com" # the base hostname & protocol for your site, e.g. http://example.com

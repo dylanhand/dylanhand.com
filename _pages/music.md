@@ -2,5 +2,5 @@
 layout: music
 title: Music
 permalink: /music/
-image: '/assets/img/profile-pic.jpg'
+image: '/assets/img/optimized/profile-pic.jpg'
 ---
