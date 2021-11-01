@@ -1,7 +1,7 @@
 <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
   {% if post.image %}
   <div class="article__image-box">
-    {%- assign thumbnail-jpg = post.image | replace: '/img', '/img/thumbs' %}
+    {%- assign thumbnail-jpg = post.image | replace: '/img/optimized', '/img/thumbs' %}
     {%- assign thumbnail-webp = thumbnail-jpg | replace: '.jpg', '.webp' %}
     <a href="{{post.url | prepend: site.baseurl}}" class="article__image">
       <picture>

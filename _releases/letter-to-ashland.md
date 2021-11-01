@@ -3,7 +3,7 @@ layout: release
 name: Letter to Ashland
 permalink: /letter-to-ashland
 date: 2021-06-04
-image: '/assets/img/letter-to-ashland-cover.jpg'
+image: '/assets/img/optimized/letter-to-ashland-cover.jpg'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/letter-to-ashland
 spotify: https://open.spotify.com/track/66HgFaD6oAO4z0iImOgJXO

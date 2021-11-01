@@ -3,7 +3,7 @@ layout: release
 name: Fly High
 permalink: /fly-high
 date: 2021-05-21
-image: '/assets/img/fly-high-cover.jpg'
+image: '/assets/img/optimized/fly-high-cover.jpg'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/fly-high
 spotify: https://open.spotify.com/track/1WRc0KN6sT4kt1jw0bVDz5
