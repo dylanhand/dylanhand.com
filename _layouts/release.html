@@ -6,13 +6,7 @@ layout: default
   <article class="page">
     {%- if page.image %}
       <div class="release__image">
-        {%- assign jpg = page.image %}
-        {%- assign webp = jpg | replace: '.jpg', '.webp' %}
-        <picture>
-          <source srcset="{{ site.baseurl }}{{ webp }}" type="image/webp">
-          <source srcset="{{ site.baseurl }}{{ jpg }}" type="image/jpeg">  
-          <img src="{{ site.baseurl }}{{ jpg }}" />
-          </picture>
+        {%- include picture.html image=page.image %}
       </div>
     {% endif -%}
 

@@ -15,13 +15,7 @@ layout: default
             <a href="{{ song.permalink }}">
               {%- if song.image %}
                 <div class="music__release__image release__image">
-                  {%- assign jpg = song.image %}
-                  {%- assign webp = jpg | replace: '.jpg', '.webp' %}
-                  <picture>
-                    <source srcset="{{ site.baseurl }}{{ webp }}" type="image/webp">
-                    <source srcset="{{ site.baseurl }}{{ jpg }}" type="image/jpeg">  
-                    <img src="{{ site.baseurl }}{{ jpg }}" />
-                  </picture>
+                  {%- include picture.html image=song.image %}
                 </div>
               {% endif -%}
           
