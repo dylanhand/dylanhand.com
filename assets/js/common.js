@@ -31,11 +31,13 @@ $(document).ready(function() {
     menuList.addClass('hidden');
     headerOverlay.addClass('hidden');
 
+    // This is pretty garbage but it appears that if a transition is set, 
+    // then this whole menu flashes when going back from a blog post.
+    // If you're reading this and know a better way, get @ me dog
     setTimeout(function() {
       menuList.removeClass('hidden');
       headerOverlay.removeClass('hidden');
     }, 320);
-
 
     menuList.removeClass('visible');
     headerOverlay.removeClass('visible');
