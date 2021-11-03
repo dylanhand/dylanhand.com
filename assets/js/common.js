@@ -29,6 +29,15 @@ $(document).ready(function() {
   }
 
   function menuClose() {
+    menuList.addClass('hidden');
+    headerOverlay.addClass('hidden');
+
+    setTimeout(function() {
+      menuList.removeClass('hidden');
+      headerOverlay.removeClass('hidden');
+    }, 320);
+
+
     menuList.removeClass('visible');
     headerOverlay.removeClass('visible');
   }

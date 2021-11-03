@@ -110,8 +110,9 @@ use.main-nav__menu {
     opacity: 0;
     z-index: 10;
     background-color: $white;
-    transition: 300ms ease-in-out;
+    // transition: 300ms ease-in-out; 
     &.visible {
+      transition: 300ms ease-in-out;
       visibility: visible;
       opacity: 1;
 
@@ -119,6 +120,12 @@ use.main-nav__menu {
         visibility: visible;
         opacity: 1;
       }
+    }
+
+    &.hidden {
+      transition: 300ms ease-in-out; 
+      visibility: hidden;
+      opacity: 0;
     }
   }
 
