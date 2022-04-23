@@ -14,8 +14,11 @@ layout: default
         <div class="music__release">
             <a href="{{ song.permalink }}">
               {%- if song.image %}
-                <div class="music__release__image release__image">
-                  {%- include picture.html image=song.image %}
+                <div class="release__image__container">
+                  <!-- <div class="music__release__image release__image"> -->
+                  <div class="music__release__image">
+                    {%- include picture.html image=song.image %}
+                  </div>
                 </div>
               {% endif -%}
           
