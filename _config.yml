@@ -73,6 +73,7 @@ plugins:
   - jekyll/tagging
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-feed
 
 # Pages Path
 defaults:
