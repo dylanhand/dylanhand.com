@@ -21,9 +21,12 @@ contact:
   - name: Twitter
     link: &twitter-link https://twitter.com/dylanhand
     icon: twitter
-  - name: Bandcamp
-    link: &bandcamp-link https://dylanhand.bandcamp.com/
-    icon: bandcamp
+  - name: TikTok
+    link: &tiktok-link https://www.tiktok.com/@dylan.hand
+    icon: tiktok
+  # - name: Bandcamp
+  #   link: &bandcamp-link https://dylanhand.bandcamp.com/
+  #   icon: bandcamp
   - name: Spotify
     link: &spotify-link https://open.spotify.com/artist/5jf6ZqP5NcRcNlyeqcbYWt?si=DSNjmhwsSDWYs2hrE9WmTg
     icon: spotify
@@ -58,7 +61,8 @@ social:
   links:
     - *instagram-link
     - *twitter-link
-    - *bandcamp-link
+    - *tiktok-link
+    - https://dylanhand.bandcamp.com/
     - *spotify-link
     - *apple-music-link
     - *soundcloud-link
