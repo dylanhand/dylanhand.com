@@ -54,6 +54,7 @@ img {
 .article__title {
   display: inline-block;
   margin: 0;
+  margin-right: 12px;
   line-height: 1.8rem;
   margin-top: -8px; // System font on iOS has internal padding at the top. This lines it up with the image
   a {
