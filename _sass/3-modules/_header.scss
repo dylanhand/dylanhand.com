@@ -28,13 +28,15 @@
   display: inline-block;
   font-size: $big-text-size;
   font-weight:600;
-  margin-left: 30px;
+  margin-left: 26px;
   .nav__link {
     color: $dark;
     border-radius: 3px;
     padding: 3px 6px;
     transition: color 0ms;
+    border: 2px solid $white;
     &:hover {
+      border: 2px solid $primary-color;
       background-color: $primary-color;
       color: $white;
     }
@@ -54,8 +56,9 @@
       // }
 
       // option 3
-      border: 0.1rem solid $dark;
+      border: 2px solid $dark;
       &:hover {
+        border: 2px solid $dark;
         background-color: $white;
         color: $dark;
       }
