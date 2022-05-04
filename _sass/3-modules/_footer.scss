@@ -1,28 +1,37 @@
 /* Footer */
 .footer {
   margin-top: 80px;
-  padding: 60px 0;
+  padding-bottom: 30px;
   border-top: 1px solid $gray-lighten;
   @media (max-width: $mobile) {
     margin-top: 50px;
-    padding: 50px 0;
   }
 }
 
-.contact {
+.footer__contact {
+  margin: 50px 0;
   text-align: center;
 }
 
-.contact__title {
-  margin-bottom: 30px;
-  font-size: 15px;
-  font-family: $font-family;
-  line-height: 25px;
-  color: $gray-dark;
+.footer__text { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: $gray; 
   a {
-    font-family: $font-family;
-    color: $dark;
+    text-decoration: underline;
+    color: $gray;
   }
+}
+
+.footer .left {
+  text-align: left;
+}
+
+.footer .right { 
+  text-align: right;
 }
 
 .contact__item {
@@ -36,22 +45,4 @@
 .contact__link {
   font-size: 16px;
   color: $dark;
-}
-
-.copyright {
-  padding-top: 50px;
-  padding-bottom: 20px;
-  font-size: 11px;
-  text-align: center;
-  color: $gray;
-}
-
-.footer__links {
-  margin-top: 20px;
-  text-align: center;
-  font-family: $font-family;
-  a {
-    color: $gray;
-    font-size: 11px;
-  }
 }

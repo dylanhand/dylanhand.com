@@ -1,20 +1,20 @@
 <div class="container">
   <!-- begin footer -->
   <footer class="footer">
-    <div class="footer__inner">
-      <div class="contact">
+      <div class="footer__contact">
         {% include social-icons.html %}
       </div>
-      <div class="copyright">
-        &#169; 2019-{{ site.time | date: '%Y' }} Dylan Hand 
+      <div class="footer__text">
+      <div class="left">
+        Dylan Hand
         <br>
-        <br>
+        &#169; 2019-{{ site.time | date: '%Y' }}
+      </div>
+      <div class="right">
         Coded by &#128400;
+        <br>
+        <a href={% link _pages/privacy.md %}>Privacy Policy</a>
       </div>
-      <div class="footer__links">
-        <a href={% link _pages/privacy.md %} >Privacy Policy</a>
-      </div>
-    </div>
   </footer>
   <!-- end footer -->
 </div>
