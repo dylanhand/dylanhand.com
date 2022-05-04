@@ -17,12 +17,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 0.8rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.5;
-  color: $gray; 
+  color: $gray-dark; 
   a {
     text-decoration: underline;
-    color: $gray;
+    color: $gray-dark;
   }
 }
 
