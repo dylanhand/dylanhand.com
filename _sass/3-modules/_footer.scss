@@ -33,16 +33,3 @@
 .footer .right { 
   text-align: right;
 }
-
-.contact__item {
-  display: inline-block;
-  margin-right: 15px;
-  &:last-child {
-    margin-right: 0;
-  }
-}
-
-.contact__link {
-  font-size: 16px;
-  color: $dark;
-}
