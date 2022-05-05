@@ -17,13 +17,12 @@ $icon-size: 22px;
   display: block;
   height: $icon-size;
   width: $icon-size;
+  use {
+    fill: $gray-dark;
+    transition: all 300ms ease;
+  }
 }
 
-use.contact__icon {
-  fill: $gray-dark;
-  transition: all 300ms ease;
-}
-
-.contact__link:hover use.contact__icon {
+.contact__link:hover use {
   fill: $gray;
 }
