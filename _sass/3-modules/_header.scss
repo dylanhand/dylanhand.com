@@ -127,6 +127,7 @@ use.main-nav__menu {
 
     &.hidden {
       transition: 300ms ease-in-out; 
+      transition-delay: 110ms; // fixes animation glitch where previous page flashes before loading new page
       visibility: hidden;
       opacity: 0;
     }
