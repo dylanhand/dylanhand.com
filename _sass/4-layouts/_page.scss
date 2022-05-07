@@ -32,7 +32,8 @@
 .page__content {
   margin-bottom: 45px;
   p {
-    font-size: 21px;
+    font-family: $font-serif;
+    font-size: 1rem;
     line-height: 30px;
     color: $dark;
     img {
