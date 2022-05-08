@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
   {% include head.html %}
-  <h1>intentionally broken for science</h1>
-  {% comment %}
   <link rel="canonical" href="{{ page.redirect.to }}">
   <script>location="{{ page.redirect.to }}"</script>
   <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
   <meta name="robots" content="noindex">
   <h1>Redirecting&hellip;</h1>
   <a href="{{ page.redirect.to }}">Click here if you are not redirected.</a>
-  {% endcomment %}
 </html>
