@@ -66,6 +66,9 @@ social:
     - *soundcloud-link
     - *youtube-link
 
+twitter:
+  username: dylanhand
+
 
 # Build settings
 markdown: kramdown
