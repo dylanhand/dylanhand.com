@@ -11,7 +11,8 @@ url: "https://dylanhand.com"
 # Author Settings
 author:
   name: Dylan Hand
-  tagline: rapper extraordinaire
+  # tagline: rapper extraordinaire
+  twitter: dylanhand
   image: *profile-pic
 
 
