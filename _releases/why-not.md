@@ -3,6 +3,8 @@ layout: release
 name: Why Not
 permalink: /why-not
 date: 2021-09-10
+title: Why Not by Dylan Hand
+description: hope u like lots of beat switches and crazy rap
 image: '/assets/img/optimized/why-not-cover.jpg'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/why-not

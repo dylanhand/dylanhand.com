@@ -3,6 +3,8 @@ layout: release
 name: Letter to Ashland
 permalink: /letter-to-ashland
 date: 2021-06-04
+title: Letter to Ashland by Dylan Hand
+description: This one's for all my people back home
 image: '/assets/img/optimized/letter-to-ashland-cover.jpg'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/letter-to-ashland

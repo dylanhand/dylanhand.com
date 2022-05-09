@@ -3,6 +3,8 @@ layout: release
 name: Fly High
 permalink: /fly-high
 date: 2021-05-21
+title: Fly High by Dylan Hand
+description: Let's get over our bullshit together
 image: '/assets/img/optimized/fly-high-cover.jpg'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/fly-high
