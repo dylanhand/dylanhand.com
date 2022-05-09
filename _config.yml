@@ -1,16 +1,19 @@
-title: Dylan Hand | Official Site
+title: Dylan Hand
 main-text: Dylan Hand
 subtitle:
+tagline: Official Site
 logo: &profile-pic '/assets/img/optimized/profile-pic.jpg'
 description: Official site of rapper extraordinaire Dylan Hand.
 # baseurl: "/yo" # the subpath of your site, e.g. /blog
-url: "https://dylanhand.com"
+url: &url https://dylanhand.com
 
 
 # Author Settings
 author:
   name: Dylan Hand
-  tagline: rapper extraordinaire
+  # tagline: rapper extraordinaire
+  url: *url
+  twitter: dylanhand
   image: *profile-pic
 
 
@@ -65,6 +68,12 @@ social:
     - *apple-music-link
     - *soundcloud-link
     - *youtube-link
+
+twitter:
+  username: dylanhand
+
+webmaster_verifications:
+  google: Ra4QOQacatohZ32vQexONZdG_Gs6rQFJUvj-jBPd1F0
 
 
 # Build settings
