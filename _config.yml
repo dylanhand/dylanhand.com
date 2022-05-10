@@ -99,6 +99,11 @@ defaults:
         card: summary
       seo:
         type: MusicRecording
+  - scope:
+      path: '_links'
+    values:
+      twitter:
+        card: summary
 
 
 include:
