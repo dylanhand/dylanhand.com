@@ -103,6 +103,7 @@ defaults:
 
 include:
   - _pages
+  - _links
 
 # Collections
 collections:
