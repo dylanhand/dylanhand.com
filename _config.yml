@@ -95,12 +95,10 @@ defaults:
   - scope:
       path: '_releases'
     values:
-      twitter:
-        card: summary
       seo:
         type: MusicRecording
   - scope:
-      path: '_links'
+      path: ''
     values:
       twitter:
         card: summary
