@@ -1,24 +1,5 @@
 ---
 ---
-/*------------------------------------------------------------------
-[TABLE OF CONTENTS]
--------------------------------------------------------------------*/
-
-/* >>>>>>>>>>>>>>>>>>>>>>>>>>>
-:: 1 Tools and Plugins
-:: 2 Base Styles
-:: 3 Modules
-    3.1 Wrapper
-    3.2 Header
-    3.3 Author Section
-    3.4 Footer
-:: 4 Layouts
-    4.1 Article
-    4.2 Post
-    4.3 Page
-<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
-
-
 @import '0-settings/variables';
 @import '0-settings/mixins';
 @import '0-settings/helpers';
@@ -38,31 +19,17 @@
 
 
 /* ============== :: 3 Modules ============== */
-
 @import '3-modules/social-icons';
-
 @import '3-modules/header';
-
 @import '3-modules/author-section';
-
 @import '3-modules/footer';
 
 
 /* ============== :: 4 Layouts ============== */
-/* :: 4.1 Article */
 @import '4-layouts/article';
-
-/* :: 4.2 Post */
 @import '4-layouts/post';
-
-/* :: 4.3 Page */
 @import '4-layouts/page';
-
-/* :: 4.4 Music Page */
 @import '4-layouts/music';
-
-/* :: 4.5 Release Page */
 @import '4-layouts/release';
-
-/* :: 4.6 Tag Page */
+@import '4-layouts/lyrics';
 @import '4-layouts/tag-page';

@@ -112,6 +112,8 @@ include:
 collections:
   releases: 
     output: true
+  lyrics: 
+    output: true
 
 # Tags
 tag_page_dir:         tag
