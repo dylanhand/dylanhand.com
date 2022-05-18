@@ -65,10 +65,9 @@
     }
 }
 
-.main-nav__menu {
-  height: 22px;
-  width: 22px;
-}
+// .main-nav__menu {
+  // note: width/height is embedded in the svg tag to avoid broken appearance when css doesn't load in time
+// }
 
 use.main-nav__menu {
   color: $dark;
