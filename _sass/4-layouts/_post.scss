@@ -32,7 +32,10 @@
     max-height: 432px;
     margin: auto;
     object-fit: contain;
+    border-style: solid;
     border-radius: $border-radius;
+    border-width: 1px;
+    border-color: $gray-lighten;
   }
 }
 
