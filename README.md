@@ -12,7 +12,7 @@ In order to get tags to work it was necessary to, confusingly, split this repo i
 2. `bundle install`
 3. `cd _site`
 4. `git init`
-5. `git remote add origin <URL to this repo>` # probably `https://github.com/dylanhand/dylanhand.github.io.git`
+5. `git remote add origin <URL to this repo>`
 6. `git checkout -b master`
 7. Make any changes to the source files
 8. Run `rake deploy` to deploy any new changes.
