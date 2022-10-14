@@ -41,7 +41,7 @@ contact:
     link: &soundcloud-link https://soundcloud.com/dylanhand
     icon: soundcloud
   - name: YouTube
-    link: &youtube-link https://www.youtube.com/channel/UCc5OZ-O78NcvLi2XVWf6KpA
+    link: &youtube-link https://www.youtube.com/@dhand
     icon: youtube
       # - name: Facebook
       # link: https://facebook.com/dylan.hand
