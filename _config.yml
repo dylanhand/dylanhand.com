@@ -22,12 +22,15 @@ contact:
   - name: Instagram
     link: &instagram-link https://instagram.com/dylanhand
     icon: instagram
-  - name: Twitter
-    link: &twitter-link https://twitter.com/dylanhand
-    icon: twitter
   - name: TikTok
     link: &tiktok-link https://www.tiktok.com/@dylan.hand
     icon: tiktok
+  - name: Facebook
+    link: https://facebook.com/dylanhand
+    icon: facebook
+  - name: Twitter
+    link: &twitter-link https://twitter.com/dylanhand
+    icon: twitter
   # - name: Bandcamp
   #   link: &bandcamp-link https://dylanhand.bandcamp.com/
   #   icon: bandcamp
@@ -43,9 +46,6 @@ contact:
   - name: YouTube
     link: &youtube-link https://www.youtube.com/@dhand
     icon: youtube
-      # - name: Facebook
-      # link: https://facebook.com/dylan.hand
-      # icon: facebook
 
 
 # Comment Section (Disqus)
