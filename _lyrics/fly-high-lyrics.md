@@ -1,7 +1,7 @@
 ---
 layout: lyrics
 name: Fly High
-permalink: /lyrics/fly-high
+permalink: /fly-high/lyrics
 date: 2021-05-21
 title: Fly High by Dylan Hand
 description: Let's get over our bullshit together
@@ -13,17 +13,14 @@ Plenty days staying stuck in the head
 Ruminating on the ways that it could have been better  
 Instead of being present. Easier said than done  
 But I think that it’s time to switch this up  
-  
 ‘Cause that shit’s not working. It’s all wasted energy  
 We all want a remedy, we’re all tryna let it be  
 We all want to be set free from what’s holding us back  
 Convinced we can’t when we know that we can. Damn  
-  
 Fuck that though, it’s time to fly high  
 High above the self-doubt, high above the bad vibes  
 High above the bullshit we’ve got in our minds  
 High above the “fuck this though, I’m not gonna try”  
-  
 Feeling withered and remembering the days when we were killing this shit  
 Time to divorce the past that we’re living in  
 Instead we’re gonna climb and find a bird’s-eye view  
@@ -42,17 +39,14 @@ Many days feeling under this pressure
 To muster up effort to finish stuff that was left at  
 80 percent but keeps getting postponed  
 We tell ourselves we’ll do it later though  
-  
 We’ve all got dreams we want to see accomplished and projects   
 We want to see more than just started; we want to flourish  
 But we’ve gotten in this habit of procrastinating   
 And making very little progress. Ah, shit  
-  
 Fuck that though it’s time to fly high  
 High above distractions, excuses, and those lies  
 High above the quick fixes keeping us blind  
 To the big picture vision that we’d clearly defined  
-  
 It appears that the time won’t ever come  
 Toss the fear to the side and give it a try  
 I’m serious, why would you wait another minute? Now is really the time  
