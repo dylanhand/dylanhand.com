@@ -9,8 +9,20 @@ layout: default
         {%- include picture.html image=page.image %}
       </div>
     {% endif -%}
-    <div class="page__title">
-      {{page.name}}
+    <div class="release__info">
+      <div class="release__title">
+        {{ page.name }}
+      </div>
+      <div class="release__artists">
+        by
+        {%- if page.artists %}
+          {%- for artist in page.artists %}
+            {{ artist }}{%- if forloop.last == false -%},{%- endif -%} 
+          {%- endfor -%}
+        {% else %}
+          Dylan Hand
+        {% endif -%}
+      </div>
     </div>
     <div class="lyrics" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100"
       data-aos-duration="700">
