@@ -53,5 +53,8 @@ layout: default
     {% if page.deezer %}
       {% include song-link.html text="Deezer" link=page.deezer icon="deezer" %}
     {% endif %}
+    <div class="lyrics__link">
+      <a href="{{- page.permalink -}}/lyrics">Lyrics ></a>
+    </div>
     </article>
 </div>
