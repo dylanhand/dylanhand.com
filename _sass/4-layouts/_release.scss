@@ -106,15 +106,16 @@
 
 .lyrics__content {
   display: inline-block;
-  padding: 1rem;
+  padding: 0 1rem;
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 1.6;
   max-height: 0;
   width: 100%;
   text-align: left;
-  opacity: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
-  // transition: opacity 0.3s ease-out;
+  &>p {
+    margin-top: 1rem;
+  }
 }
