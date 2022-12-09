@@ -77,9 +77,50 @@
     font-weight: 600;
 }
 
-.lyrics__link {
-  margin-top: 3rem;
+.lyrics {
   text-align: center;
+}
+
+.lyrics__button {
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: left;
   font-size: $big-text-size;
   font-weight: 600;
+  border: none;
+  border-radius: $border-radius;
+  width: 100%;
+  background-color: #e9e9ed; // firefox defauilt
+  &:after {
+    content: '\002B';
+    float: right;
+  }
+
+  &:hover {
+    background-color: #D0D0D6; // firefox default
+  }
+
+  &.active {
+    border-radius: $border-radius $border-radius 0 0;
+    &:after {
+      content: '\2212';
+    }
+  }
+}
+
+.lyrics__content {
+  padding: 0 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.6;
+  max-height: 0;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  &>p {
+    margin-top: 1rem;
+  }
 }

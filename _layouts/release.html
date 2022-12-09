@@ -53,8 +53,25 @@ layout: default
     {% if page.deezer %}
       {% include song-link.html text="Deezer" link=page.deezer icon="deezer" %}
     {% endif %}
-    <div class="lyrics__link">
-      <a href="{{- page.permalink -}}/lyrics">Lyrics ></a>
+    <div class="lyrics">
+      <button id="lyrics__button" class="lyrics__button">
+        Lyrics
+      </button>
+      <div class="lyrics__content">
+        {{ content }}
+      </div>
     </div>
     </article>
+    <script>
+      var lyricsButton = document.getElementById("lyrics__button");
+      lyricsButton.addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+      </script>
 </div>
