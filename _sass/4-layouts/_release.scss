@@ -92,6 +92,7 @@
   border: none;
   border-radius: $border-radius;
   width: 100%;
+  color: $dark;
   background-color: #e9e9ed; // firefox defauilt
   &:after {
     content: '\002B';
