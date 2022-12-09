@@ -91,10 +91,6 @@
   border: none;
   border-radius: $border-radius;
   width: 100%;
-  // background-color: ;
-  // @media (max-width: $mobile) {
-  //   max-width: 380px;
-  // }
   &:after {
     content: '\002B';
     float: right;
@@ -116,10 +112,6 @@
   line-height: 1.6;
   max-height: 0;
   width: 100%;
-  // @media (max-width: $mobile) {
-  //   max-width: 380px;
-  // }
-  // background-color: #fcfcfc;
   text-align: left;
   opacity: 0;
   overflow: hidden;
