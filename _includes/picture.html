@@ -3,5 +3,5 @@
 <picture>
   <source srcset="{{ site.baseurl }}{{ webp }}" type="image/webp">
     <source srcset="{{ site.baseurl }}{{ jpg }}" type="image/jpeg">  
-    <img src="{{ site.baseurl }}{{ jpg }}" />
+    <img src="{{ site.baseurl }}{{ jpg }}" width="{{ include.width}}" height="{{ include.height }}" />
 </picture>
