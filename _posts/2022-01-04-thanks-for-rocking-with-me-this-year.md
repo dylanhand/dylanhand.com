@@ -1,6 +1,7 @@
 ---
 layout: post
 image:  '/assets/img/optimized/spotify-wrapped-2021-01.jpg'
+image_alt:  '2021 Spotify Wrapped stats for Dylan Hand'
 tags: spotify-wrapped
 ---
 

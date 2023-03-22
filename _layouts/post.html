@@ -12,7 +12,7 @@ layout: default
       </div>
       {% if page.image %}
       <div class="post__image">
-        {%- include picture.html image=page.image %}
+        {%- include picture.html image=page.image alt=page.image_alt %}
       </div>
       {% endif %}
     </div>

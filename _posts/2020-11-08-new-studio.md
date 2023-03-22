@@ -3,6 +3,7 @@ layout: post
 title:  "New Studio"
 date:   2020-11-08
 image:  '/assets/img/optimized/studio/studio-close.jpg'
+image_alt:  'Picture of music studio with computer, speakers, and microphone'
 tags:   raps studio
 ---
 

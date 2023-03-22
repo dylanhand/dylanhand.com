@@ -2,6 +2,7 @@
 layout: post
 image:  '/assets/img/optimized/spotify-wrapped-2022-01.png'
 tags: spotify-wrapped
+image_alt:  '2022 Spotify Wrapped stats for Dylan Hand'
 title: Another Year Wrapped
 ---
 

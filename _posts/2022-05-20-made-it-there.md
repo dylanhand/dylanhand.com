@@ -2,6 +2,7 @@
 layout: post
 title:  'New Song - "Made It There"'
 image:  '/assets/img/optimized/made-it-there-cover.jpg'
+image_alt:  'Made It There cover art: studio photo of Dylan Hand wearing pink alligator shirt and rather blank expression'
 tags:   raps single 
 ---
 
