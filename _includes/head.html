@@ -1,6 +1,8 @@
 <head>
   <meta charset="utf-8">
   {% if jekyll.environment == "production" -%}
+    {%- include nullitics.html -%}
+
     {%- if site.google-analytics -%}
       {%- include google-analytics.html -%}
     {%- endif -%}
