@@ -39,14 +39,15 @@
     document.head.appendChild(script);
   }
 
-  if(readCookie('cookie-notice-option')=='true') {
+  if(readCookie('cookie-notice-option') == 'true') {
     {% if jekyll.environment == "production" and site.google-analytics %}
       {%- include google-analytics.js -%}
     {% endif %}
-  } else if (readCookie('cookie-notice-option')!='false'){
+  } else if (readCookie('cookie-notice-option') == 'false'){
     {% if jekyll.environment == "production" -%}
       {%- include nullitics.js -%}
     {%- endif -%}
+  } else {
     document.getElementById('cookie-notice').style.display = 'block';
   }
 
