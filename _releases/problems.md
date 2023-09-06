@@ -2,7 +2,7 @@
 layout: release
 name: Problems
 permalink: /problems
-date: 2023-07-05
+date: 2023-09-22
 title: Problems by Dylan Hand
 description: i got all these problems
 image: /assets/img/optimized/problems-cover.jpg
