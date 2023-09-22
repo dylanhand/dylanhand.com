@@ -2,7 +2,7 @@ Dylan Hand's website.
 
 ### Development mode:
 
-`bundle exec jekyll serve --watch`
+`bundle exec jekyll serve --watch --future`
 
 ### Setup:
 
