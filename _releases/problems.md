@@ -7,14 +7,14 @@ title: Problems by Dylan Hand
 description: i got all these problems
 image: /assets/img/optimized/problems-cover.jpg
 artists: Dylan Hand
-bandcamp: <TODO>
-spotify: <TODO>
-apple-music: <TODO>
-soundcloud: <TODO>
-youtube: <TODO>
-amazon-music: <TODO>
-tidal: <TODO>
-deezer: <TODO>
+bandcamp:
+spotify: https://open.spotify.com/track/5HIQUhyUqCKZChfDnk13pZ
+apple-music: https://geo.music.apple.com/us/album/_/1705690132?i=1705690133&mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m
+soundcloud:
+youtube: https://www.youtube.com/watch?v=Z-Y-tvRuVVU
+amazon-music: https://music.amazon.com/albums/B0CH73SJ1D?trackAsin=B0CH74GBWL
+tidal: https://listen.tidal.com/track/314362524
+deezer: https://www.deezer.com/track/2438398205
 ---
 I was feeling alright I was doing just fine and I'm  
 I'm looking forward to tonight  
