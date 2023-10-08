@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 image: '/assets/img/optimized/profile-pic-red.jpg'
 ---
 
