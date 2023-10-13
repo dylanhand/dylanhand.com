@@ -1,6 +1,6 @@
 ---
 layout: music
 title: Music
-permalink: /music
+permalink: /music/
 image: '/assets/img/optimized/profile-pic.jpg'
 ---
