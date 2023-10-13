@@ -7,10 +7,10 @@ title: Problems by Dylan Hand
 description: fetch me a glass of champagne
 image: /assets/img/optimized/champagne-cover.jpg
 artists: Dylan Hand
-bandcamp:
+bandcamp: https://dylanhand.bandcamp.com/track/champagne
 spotify: https://open.spotify.com/track/2pP7g03z4qW04WR3ARijSE
 apple-music: https://geo.music.apple.com/us/album/_/1710688390?i=1710688391&mt=1&app=music&ls=1&at=1000lHKX&ct=api_http&itscg=30200&itsct=odsl_m
-soundcloud:
+soundcloud: https://soundcloud.com/dylanhand/champagne
 youtube: https://www.youtube.com/watch?v=fqkgDOHFZo4
 amazon-music: https://music.amazon.com/albums/B0CKKDRR9B?trackAsin=B0CKKQ18ZW
 tidal: https://listen.tidal.com/track/320171853
