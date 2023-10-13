@@ -1,6 +1,6 @@
 - name: Home
   link: /
 - name: Music
-  link: /music/
+  link: /music
 - name: About
-  link: /about/
+  link: /about
