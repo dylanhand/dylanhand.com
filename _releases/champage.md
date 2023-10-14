@@ -3,7 +3,7 @@ layout: release
 name: Champagne
 permalink: /champagne
 date: 2023-10-13
-title: Problems by Dylan Hand
+title: Champagne by Dylan Hand
 description: fetch me a glass of champagne
 image: /assets/img/optimized/champagne-cover.jpg
 artists: Dylan Hand
