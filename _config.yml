@@ -28,9 +28,9 @@ contact:
   - name: Facebook
     link: https://facebook.com/dylanhand
     icon: facebook
-  - name: Twitter
-    link: &twitter-link https://twitter.com/dylanhand
-    icon: twitter
+  - name: X
+    link: &x-link https://x.com/dylanhand
+    icon: x
   # - name: Bandcamp
   #   link: &bandcamp-link https://dylanhand.bandcamp.com/
   #   icon: bandcamp
@@ -61,7 +61,7 @@ social:
   name: Dylan Hand
   links:
     - *instagram-link
-    - *twitter-link
+    - *x-link
     - *tiktok-link
     - https://dylanhand.bandcamp.com/
     - *spotify-link
