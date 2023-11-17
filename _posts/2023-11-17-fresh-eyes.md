@@ -13,4 +13,4 @@ My new song [Fresh Eyes]({{ site.baseurl }}/fresh-eyes) is out now 👀
 
 <!-- ### [🎥  Watch the reel on Instagram](https://www.instagram.com/reel/CyVzR-9q7in/) -->
 <!---->
-<!-- ### [📄  Read the blurb](https://dylanhand.substack.com/p/champagne) -->
+### [📄  Read the blurb](https://dylanhand.substack.com/p/new-song-fresh-eyes)
