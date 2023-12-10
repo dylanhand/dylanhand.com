@@ -14,7 +14,8 @@ layout: default
         {% include social-icons.html %}
       </div>
       <p class="author__bio">
-        Listen to the new single<br> <a href="{{site.baseurl}}/rock-the-boat">"Rock The Boat"</a>
+        {% assign latest-song = site.releases | reverse | first %}
+        Listen to the new single<br> <a href="{{site.baseurl}}/{{latest-song.permalink}}">"{{latest-song.name}}"</a>
       </p>
     </div>
   </section>
