@@ -95,6 +95,9 @@ use.main-nav__menu {
   position: fixed;
   top: 2.25rem;
   right: 30px;
+  @media (max-width: $mobile) {
+    right: 20px;
+  }
   font-size: $big-text-size;
   visibility: hidden;
   opacity: 0;
