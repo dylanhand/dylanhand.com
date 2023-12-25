@@ -15,8 +15,8 @@ The following week we met up at my studio and had the majority of what you're ab
 
 ### [🎧 Listen to Rock The Boat](/rock-the-boat)
 
-{% comment %}
-### [🎥  Watch the reel on Instagram](<FILL ME IN>)
+### [🎥  Watch the reel on Instagram](https://www.instagram.com/p/C0146_dKVMK/)
 
+{% comment %}
 ### [📄  Read the blurb](https://dylanhand.substack.com/p/rock-the-boat)
 {% endcomment %}
