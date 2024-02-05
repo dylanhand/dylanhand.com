@@ -4,7 +4,8 @@ media_queries:
 
 presets:
   default:
-    formats: [avif, webp, jp2, original]
+    # formats: [avif, webp, jp2, original]
+    formats: [webp, original]
     # widths: [200, 400, 800, 1200, 1600] # Image widths, in pixels.
     quality: &quality 75
     format_quality:
@@ -13,7 +14,8 @@ presets:
       jp2: &jp2-quality 70
 
   profile:
-    formats: [avif, webp, jp2, original]
+    # formats: [avif, webp, jp2, original]
+    formats: [webp, original]
     base_width: 160
     fallback_width: 160
     size: 160px
