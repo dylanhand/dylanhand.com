@@ -1,0 +1,28 @@
+media_queries:
+    mobile: 'max-width: 576px'
+    tablet: 'max-width: 768px'
+
+presets:
+  default:
+    formats: [avif, webp, jp2, original]
+    # widths: [200, 400, 800, 1200, 1600] # Image widths, in pixels.
+    quality: &quality 75
+    format_quality:
+      webp: &webp-quality 70
+      avif: &avif-quality 70
+      jp2: &jp2-quality 70
+
+  profile:
+    formats: [avif, webp, jp2, original]
+    base_width: 160
+    fallback_width: 160
+    size: 160px
+    pixel_ratios: [1, 2]
+    quality: *quality
+    format_quality:
+      webp: *webp-quality
+      avif: *avif-quality
+      jp2: *jp2-quality
+    # dimension_attributes: true
+    # attributes:
+    #   img: 'width="160" height="160"'
