@@ -2,7 +2,7 @@
   {% if post.image %}
   <div class="article__image-box">
     <a href="{{post.url | prepend: site.baseurl}}" class="article__image">
-      {% picture thumbnail {{post.image}} %}
+      {% picture thumbnail {{post.image}} --alt {{post.image_alt}} %}
     </a>
   </div>
   {% endif %}
