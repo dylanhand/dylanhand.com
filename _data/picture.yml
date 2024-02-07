@@ -36,7 +36,6 @@ presets:
       mobile: 70px
       tablet: 100px
     # size: 100px
-    # media_widths:
-    #   mobile: [70, 105, 140]
-    #   tablet: [100, 150, 200]
+    attributes:
+      img: 'loading="lazy"'
     
