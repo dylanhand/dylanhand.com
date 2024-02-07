@@ -51,3 +51,9 @@ presets:
     attributes:
       img: 'loading="lazy"'
     
+  release:
+    formats: [webp, original]
+    widths: [340, 510, 680]
+    size: 340px
+    dimension_attributes: true
+    
