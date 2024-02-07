@@ -5,7 +5,7 @@ permalink: /fresh-eyes
 date: 2023-11-17
 title: Fresh Eyes by Dylan Hand
 description: you can feel it in the air right?
-image: /assets/img/optimized/fresh-eyes-cover.jpg
+image: fresh-eyes-cover.jpg
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/fresh-eyes
 spotify: https://open.spotify.com/track/2txSWGLXaMrfusu3kU3KDW

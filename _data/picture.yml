@@ -36,6 +36,18 @@ presets:
       mobile: 70px
       tablet: 100px
     # size: 100px
+    dimension_attributes: true
+    attributes:
+      img: 'loading="lazy"'
+    
+  release_grid:
+    formats: [webp, original]
+    widths: [252, 378, 504, 290, 435, 580]
+    sizes:
+      mobile: 252px
+      tablet: 290px
+    # size: 100px
+    dimension_attributes: true
     attributes:
       img: 'loading="lazy"'
     

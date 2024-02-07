@@ -5,7 +5,7 @@ permalink: /sole
 date: 2020-08-17
 title: Sole by Rotaris & Dylan Hand
 description: Dedicated to all you sickos out there
-image: '/assets/img/optimized/sole.jpg'
+image: 'sole.jpg'
 artists: 
     - Rotaris
     - Dylan Hand
