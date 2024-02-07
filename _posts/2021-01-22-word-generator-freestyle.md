@@ -2,7 +2,7 @@
 layout: post
 title:  "Video: Another Word Generator Freestyle?"
 date:   2021-01-22
-image:  '/assets/img/optimized/word-generator-freestyle-3.jpg'
+image:  'word-generator-freestyle-3.jpg'
 image_alt:  'Picture of Dylan Hand at micrphone showing phone with word generator app RapScript'
 tags:   raps freestyle word-generator
 ---

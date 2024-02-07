@@ -2,7 +2,7 @@
 layout: post
 title:  'New Song - "Letter to Ashland"'
 date:   2021-06-04
-image:  '/assets/img/optimized/letter-to-ashland-cover.jpg'
+image:  'letter-to-ashland-cover.jpg'
 image_alt:  'Letter to Ashland cover art: picture of Oregon drawn on post-it note in front of lush forest'
 tags:   raps single 
 ---

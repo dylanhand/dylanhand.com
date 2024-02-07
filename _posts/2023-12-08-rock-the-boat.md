@@ -1,6 +1,6 @@
 ---
 layout: post
-image:  '/assets/img/optimized/rock-the-boat-cover.jpg'
+image:  'rock-the-boat-cover.jpg'
 tags: raps single
 image_alt:  'Rock The Boat cover art: Dylan Hand and SUNRAID standing in front of a red boat with a blue background and parental advisory sticker in the top right corner'
 title: New Song - "Rock The Boat"

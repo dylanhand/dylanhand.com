@@ -1,12 +1,12 @@
 ---
 layout: post
-image:  '/assets/img/optimized/spotify-wrapped-2021-01.jpg'
+image:  'spotify-wrapped-2021-01.jpg'
 image_alt:  '2021 Spotify Wrapped stats for Dylan Hand'
 tags: spotify-wrapped
 ---
 
-![]({{site.baseurl}}/assets/img/optimized/spotify-wrapped-2021-02.jpg)
-![]({{site.baseurl}}/assets/img/optimized/spotify-wrapped-2021-03.jpg)
+![]({{site.baseurl}}spotify-wrapped-2021-02.jpg)
+![]({{site.baseurl}}spotify-wrapped-2021-03.jpg)
 
 Thanks for rocking with me this last year. These numbers are almost entirely from you all sharing these first three songs, which is awesome to me.
 

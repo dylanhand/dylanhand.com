@@ -16,7 +16,7 @@ presets:
   profile:
     # formats: [avif, webp, jp2, original]
     formats: [webp, original]
-    base_width: 160
+    base_width: 160 # How wide the 1x image should be.
     fallback_width: 160
     size: 160px
     pixel_ratios: [1, 2]
@@ -28,3 +28,15 @@ presets:
     # dimension_attributes: true
     # attributes:
     #   img: 'width="160" height="160"'
+
+  thumbnail:
+    formats: [webp, original]
+    widths: [70, 100, 105, 140, 150, 200]
+    sizes:
+      mobile: 70px
+      tablet: 100px
+    # size: 100px
+    # media_widths:
+    #   mobile: [70, 105, 140]
+    #   tablet: [100, 150, 200]
+    

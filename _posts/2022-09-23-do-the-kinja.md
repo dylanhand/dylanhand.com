@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  'New Song - "Do The Kinja"'
-image:  '/assets/img/optimized/do-the-kinja-cover.jpg'
+image:  'do-the-kinja-cover.jpg'
 image_alt:  'Do The Kinja cover art: definition of word kinja, kind ninja'
 tags:   raps single 
 ---
