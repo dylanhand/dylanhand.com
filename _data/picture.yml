@@ -57,3 +57,9 @@ presets:
     size: 340px
     dimension_attributes: true
     
+  post:
+    formats: [webp, original]
+    widths: [640, 960, 1280]
+    size: 640px
+    attributes:
+      img: 'width=640 height=640'
