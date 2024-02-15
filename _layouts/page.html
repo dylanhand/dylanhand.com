@@ -10,7 +10,7 @@ layout: default
       <h1 class="page__title">{{ page.title | escape }}</h1>
       {% if page.image %}
       <div class="page__image">
-        {%- include picture.html image=page.image %}
+        {% picture post {{page.image}} --alt {{page.image_alt}} %}
       </div>
       {% endif %}
     </div>
