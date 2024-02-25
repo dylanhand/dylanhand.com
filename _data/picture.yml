@@ -26,8 +26,8 @@ presets:
       avif: *avif-quality
       jp2: *jp2-quality
     # dimension_attributes: true
-    # attributes:
-    #   img: 'width="160" height="160"'
+    attributes:
+      img: 'width="160" height="160"'
 
   thumbnail:
     formats: [webp, original]
