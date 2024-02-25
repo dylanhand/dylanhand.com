@@ -64,3 +64,11 @@ presets:
     size: 640px
     attributes:
       img: 'width=640 height=640'
+
+  page:
+    formats: [webp, original]
+    widths: [640, 960, 1280]
+    size: 640px
+    attributes:
+      img: 'width=640 height=640'
+    strip_metadata: false # fixes bad colors for pics from photographer
