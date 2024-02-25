@@ -25,6 +25,7 @@ presets:
       webp: *webp-quality
       avif: *avif-quality
       jp2: *jp2-quality
+    strip_metadata: false
     # dimension_attributes: true
     attributes:
       img: 'width="160" height="160"'
