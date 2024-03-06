@@ -6,8 +6,8 @@ image_alt:  '2022 Spotify Wrapped stats for Dylan Hand'
 title: Another Year Wrapped
 ---
 
-![]({{site.baseurl}}spotify-wrapped-2022-02.png)
-![]({{site.baseurl}}spotify-wrapped-2022-03.png)
+{% picture post spotify-wrapped-2022-02.png %}
+{% picture post spotify-wrapped-2022-03.png %}
 
 Thanks for rocking with me again this year. 
 

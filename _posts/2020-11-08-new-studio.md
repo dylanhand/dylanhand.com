@@ -11,6 +11,6 @@ After many moons of wanting to, I finally did it. I’ve got a studio now.
 
 Actually been here a handful of weeks and have some new stuff cooking. Can’t wait to share more.
 
-![]({{site.baseurl}}studio/studio-entrance.jpg)
-![]({{site.baseurl}}studio/studio-hall.jpg)
-![]({{site.baseurl}}studio/studio-lounge.jpg)
+{% picture post studio/studio-entrance.jpg %}
+{% picture post studio/studio-hall.jpg %}
+{% picture post studio/studio-lounge.jpg %}

@@ -6,8 +6,8 @@ image_alt:  '2023 Spotify Wrapped stats for Dylan Hand'
 title: Thanks for a great year
 ---
 
-![]({{site.baseurl}}spotify-wrapped-2023-02.png)
-![]({{site.baseurl}}spotify-wrapped-2023-03.png)
+{% picture post spotify-wrapped-2023-02.png %}
+{% picture post spotify-wrapped-2023-03.png %}
 
 Thanks for being here. I had a blast this year. The numbers are cool and all but as I say in the vid below, the most rewarding part of this is connecting with y'all.
 
