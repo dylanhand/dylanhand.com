@@ -1,12 +1,14 @@
 <div class="container">
   <!-- begin footer -->
   <footer class="footer">
+    {% comment %}
     {% if page.permalink != "/newsletter" %}
     <div class="footer__email__signup">
       <iframe src="https://dylanhand.substack.com/embed" style="border:1px solid #EEE; background:white;"
         frameborder="0" scrolling="no"></iframe>
     </div>
     {% endif %}
+    {% endcomment %}
     <div class="footer__contact">
       {% include social-icons.html %}
     </div>
