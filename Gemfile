@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem "bundler"
-gem "jekyll"
+gem "jekyll", "4.2.2"
 gem "jekyll-sitemap"
 gem 'jekyll-tagging'
 gem 'jekyll-redirect-from'
