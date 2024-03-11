@@ -57,7 +57,8 @@ presets:
       webp: *webp-quality
       avif: *avif-quality
       jp2: *jp2-quality
-    dimension_attributes: true
+    attributes:
+      img: 'width=340 height=340'
     
   post:
     formats: [webp, original]
