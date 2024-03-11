@@ -5,7 +5,8 @@ permalink: /letter-to-ashland
 date: 2021-06-04
 title: Letter to Ashland by Dylan Hand
 description: This one's for all my people back home
-image: '/assets/img/optimized/letter-to-ashland-cover.jpg'
+image: 'letter-to-ashland-cover.jpg'
+image_alt: 'Letter to Ashland cover art: picture of Oregon drawn on post-it note in front of lush forest'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/letter-to-ashland
 spotify: https://open.spotify.com/track/66HgFaD6oAO4z0iImOgJXO

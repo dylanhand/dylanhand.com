@@ -55,6 +55,10 @@ disqus-identifier: # mr-brown # add your shortname for Disqus Comment. For examp
 # Google Analytics
 google-analytics: G-KRGRNSZ5Y9 # add your identifier. For example UA-99631805-1.
 
+# jekyll-picture-tag plugin
+picture:
+  source: assets/img/
+  # source: assets/img/_fullsize # using a folder starting with '_' will exclude it from being copied to the _site folder
 
 # Jekyll-seo-tag plugin
 social:
@@ -85,6 +89,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll_picture_tag
 
 # Pages Path
 defaults:

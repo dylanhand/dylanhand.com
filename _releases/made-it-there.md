@@ -5,7 +5,8 @@ permalink: /made-it-there
 date: 2022-05-20
 title: Made It There by Dylan Hand
 description: i'm with your mom we're sharing a plate of nachos
-image: /assets/img/optimized/made-it-there-cover.jpg
+image: made-it-there-cover.jpg
+image_alt: 'Made It There cover art: studio photo of Dylan Hand wearing pink alligator shirt and rather blank expression'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/made-it-there
 spotify: https://open.spotify.com/track/35xAnXy8CQynkrRhv935b6

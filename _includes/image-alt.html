@@ -1,0 +1,8 @@
+{% assign page = include.page %}
+{% assign image_alt = page.image_alt %}
+{% for release in site.releases %}
+{% if release.image == page.image %}
+    {% assign image_alt = release.image_alt %}
+    {% break %}
+{% endif %}
+{% endfor %}

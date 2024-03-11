@@ -5,7 +5,8 @@ permalink: /kinja
 date: 2022-09-23
 title: Do The Kinja by Kindhumans, Dylan Hand & Judith Okon
 description: Be nice.
-image: /assets/img/optimized/do-the-kinja-cover.jpg
+image: do-the-kinja-cover.jpg
+image_alt: 'Do The Kinja cover art: definition of word kinja, kind ninja'
 artists: [Kindhumans, Dylan Hand, Judith Okon]
 # bandcamp:
 spotify: https://open.spotify.com/track/6POhyjPQvqd33eUmsMXivn

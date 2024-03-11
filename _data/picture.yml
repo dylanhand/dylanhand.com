@@ -1,0 +1,85 @@
+media_queries:
+    mobile: 'max-width: 576px'
+    tablet: 'max-width: 768px'
+
+presets:
+  default:
+    # formats: [avif, webp, jp2, original]
+    formats: [webp, original]
+    quality: &quality 80
+    format_quality:
+      webp: &webp-quality 80
+      avif: &avif-quality 80
+      jp2: &jp2-quality 80
+
+  profile:
+    # formats: [avif, webp, jp2, original]
+    formats: [webp, original]
+    base_width: 160 # How wide the 1x image should be.
+    fallback_width: 160
+    size: 160px
+    pixel_ratios: [1, 1.5, 2]
+    quality: *quality
+    format_quality:
+      webp: *webp-quality
+      avif: *avif-quality
+      jp2: *jp2-quality
+    strip_metadata: false # fixes bad colors for pics from photographer
+    attributes:
+      img: 'width="160" height="160"'
+
+  thumbnail:
+    formats: [webp, original]
+    widths: [70, 100, 105, 140, 150, 200]
+    sizes:
+      mobile: 70px
+      tablet: 100px
+    dimension_attributes: true
+    attributes:
+      img: 'loading="lazy"'
+    
+  release_grid:
+    formats: [webp, original]
+    widths: [252, 378, 504, 290, 435, 580]
+    sizes:
+      mobile: 252px
+      tablet: 290px
+    dimension_attributes: true
+    attributes:
+      img: 'loading="lazy"'
+    
+  release:
+    formats: [webp, original]
+    widths: [340, 510, 680]
+    size: 340px
+    quality: *quality
+    format_quality:
+      webp: *webp-quality
+      avif: *avif-quality
+      jp2: *jp2-quality
+    attributes:
+      img: 'width="340" height="340"'
+    
+  post:
+    formats: [webp, original]
+    widths: [640, 960, 1280]
+    size: 640px
+    quality: *quality
+    format_quality:
+      webp: *webp-quality
+      avif: *avif-quality
+      jp2: *jp2-quality
+    attributes:
+
+  page:
+    formats: [webp, original]
+    widths: [640, 960, 1280]
+    size: 640px
+    quality: *quality
+    format_quality:
+      webp: *webp-quality
+      avif: *avif-quality
+      jp2: *jp2-quality
+    attributes:
+      img: 'width="640" height="640"'
+    strip_metadata: false # fixes bad colors for pics from photographer
