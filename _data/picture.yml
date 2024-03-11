@@ -70,7 +70,6 @@ presets:
       avif: *avif-quality
       jp2: *jp2-quality
     attributes:
-      img: 'width="640" height="640"'
 
   page:
     formats: [webp, original]
