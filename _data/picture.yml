@@ -6,11 +6,11 @@ presets:
   default:
     # formats: [avif, webp, jp2, original]
     formats: [webp, original]
-    quality: &quality 75
+    quality: &quality 80
     format_quality:
-      webp: &webp-quality 70
-      avif: &avif-quality 70
-      jp2: &jp2-quality 70
+      webp: &webp-quality 80
+      avif: &avif-quality 80
+      jp2: &jp2-quality 80
 
   profile:
     # formats: [avif, webp, jp2, original]
