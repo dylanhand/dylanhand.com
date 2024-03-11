@@ -16,7 +16,7 @@ layout: default
               {%- if song.image %}
                 <div class="release__image__container">
                   <div class="music__release__image">
-                    {% picture release_grid {{song.image}} %}
+                    {% picture release_grid {{song.image}} --alt {{song.image_alt}} %}
                   </div>
                 </div>
               {% endif -%}
