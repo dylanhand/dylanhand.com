@@ -15,7 +15,7 @@
   display: block;
   // note: width/height is embedded in the svg tag to avoid broken appearance when css doesn't load in time
   use {
-    fill: $gray-dark;
+    fill: $gray-darkish;
     transition: all 300ms ease;
   }
 }
