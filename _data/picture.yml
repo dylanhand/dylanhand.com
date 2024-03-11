@@ -6,7 +6,6 @@ presets:
   default:
     # formats: [avif, webp, jp2, original]
     formats: [webp, original]
-    # widths: [200, 400, 800, 1200, 1600] # Image widths, in pixels.
     quality: &quality 75
     format_quality:
       webp: &webp-quality 70
@@ -25,8 +24,7 @@ presets:
       webp: *webp-quality
       avif: *avif-quality
       jp2: *jp2-quality
-    strip_metadata: false
-    # dimension_attributes: true
+    strip_metadata: false # fixes bad colors for pics from photographer
     attributes:
       img: 'width="160" height="160"'
 
@@ -36,7 +34,6 @@ presets:
     sizes:
       mobile: 70px
       tablet: 100px
-    # size: 100px
     dimension_attributes: true
     attributes:
       img: 'loading="lazy"'
@@ -47,7 +44,6 @@ presets:
     sizes:
       mobile: 252px
       tablet: 290px
-    # size: 100px
     dimension_attributes: true
     attributes:
       img: 'loading="lazy"'
