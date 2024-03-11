@@ -52,12 +52,22 @@ presets:
     formats: [webp, original]
     widths: [340, 510, 680]
     size: 340px
+    quality: *quality
+    format_quality:
+      webp: *webp-quality
+      avif: *avif-quality
+      jp2: *jp2-quality
     dimension_attributes: true
     
   post:
     formats: [webp, original]
     widths: [640, 960, 1280]
     size: 640px
+    quality: *quality
+    format_quality:
+      webp: *webp-quality
+      avif: *avif-quality
+      jp2: *jp2-quality
     attributes:
       img: 'width=640 height=640'
 
@@ -65,6 +75,11 @@ presets:
     formats: [webp, original]
     widths: [640, 960, 1280]
     size: 640px
+    quality: *quality
+    format_quality:
+      webp: *webp-quality
+      avif: *avif-quality
+      jp2: *jp2-quality
     attributes:
       img: 'width=640 height=640'
     strip_metadata: false # fixes bad colors for pics from photographer
