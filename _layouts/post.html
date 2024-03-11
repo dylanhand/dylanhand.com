@@ -11,13 +11,7 @@ layout: default
         <time datetime="{{ page.date | date_to_xmlschema }}">Published {{page.date | date: '%b %d, %Y'}}</time>
       </div>
       {% if page.image %}
-      {% assign image_alt = page.image_alt %}
-      {% for release in site.releases %}
-        {% if release.image == page.image %}
-          {% assign image_alt = release.image_alt %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
+      {% include image-alt.html page=page %}
       <div class="post__image">
         {% picture post {{page.image}} --alt {{image_alt}} %}
       </div>
