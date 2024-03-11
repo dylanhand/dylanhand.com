@@ -6,6 +6,7 @@ date: 2023-09-22
 title: Problems by Dylan Hand
 description: i got all these problems
 image: problems-cover.jpg
+image_alt: 'Problems cover art: Dylan Hand holding a fire extinguisher in front of a white background'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/problems
 spotify: https://open.spotify.com/track/5HIQUhyUqCKZChfDnk13pZ

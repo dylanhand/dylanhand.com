@@ -2,7 +2,7 @@
 layout: post
 image:  'spotify-wrapped-2023-01.png'
 tags: spotify-wrapped
-image_alt:  '2023 Spotify Wrapped stats for Dylan Hand'
+image_alt: '2023 Spotify Wrapped stats for Dylan Hand'
 title: Thanks for a great year
 ---
 

@@ -6,6 +6,7 @@ date: 2023-10-13
 title: Champagne by Dylan Hand
 description: fetch me a glass of champagne
 image: champagne-cover.jpg
+image_alt: 'Champagne cover art: Dylan Hand holding a glass of campagne in his right hand and a bottle of champagne in his left hand wearing a light green button-up linen shirt in a chair in front of a white background'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/champagne
 spotify: https://open.spotify.com/track/2pP7g03z4qW04WR3ARijSE

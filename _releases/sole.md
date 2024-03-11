@@ -6,6 +6,7 @@ date: 2020-08-17
 title: Sole by Rotaris & Dylan Hand
 description: Dedicated to all you sickos out there
 image: 'sole.jpg'
+image_alt: 'Sole cover art: a picture of a tissue box'
 artists: 
     - Rotaris
     - Dylan Hand

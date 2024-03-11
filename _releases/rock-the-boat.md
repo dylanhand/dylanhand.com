@@ -6,6 +6,7 @@ date: 2023-12-08
 title: Rock The Boat by Dylan Hand produced by SUNRAID
 description: an adventerous collab between Dylan Hand and SUNRAID
 image: rock-the-boat-cover.jpg
+image_alt: 'Rock The Boat cover art: Dylan Hand and SUNRAID standing in front of a red boat with a blue background and parental advisory sticker in the top right corner'
 artists: [Dylan Hand, SUNRAID]
 bandcamp: https://dylanhand.bandcamp.com/track/rock-the-boat
 spotify: https://open.spotify.com/track/7xz3YjZXwRzYFqgOrmQLtW
