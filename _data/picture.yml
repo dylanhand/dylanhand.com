@@ -58,7 +58,7 @@ presets:
       avif: *avif-quality
       jp2: *jp2-quality
     attributes:
-      img: 'width=340 height=340'
+      img: 'width="340" height="340"'
     
   post:
     formats: [webp, original]
@@ -70,7 +70,7 @@ presets:
       avif: *avif-quality
       jp2: *jp2-quality
     attributes:
-      img: 'width=640 height=640'
+      img: 'width="640" height="640"'
 
   page:
     formats: [webp, original]
@@ -82,5 +82,5 @@ presets:
       avif: *avif-quality
       jp2: *jp2-quality
     attributes:
-      img: 'width=640 height=640'
+      img: 'width="640" height="640"'
     strip_metadata: false # fixes bad colors for pics from photographer
