@@ -1,6 +1,8 @@
 <head>
   <meta charset="utf-8">
-  {%- include cloudflare-analytics.html -%}
+  {% if jekyll.environment == "production" -%}
+    {%- include cloudflare-analytics.html -%}
+  {%- endif %}
 
   <!-- mobile responsive meta -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
