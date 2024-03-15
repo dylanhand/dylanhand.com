@@ -1,13 +1,7 @@
 <head>
   <meta charset="utf-8">
   {% if jekyll.environment == "production" -%}
-    {%- include nullitics.html -%}
-
-    {%- if site.google-analytics -%}
-      {%- include google-analytics.html -%}
-    {%- endif -%}
-
-    {%- include facebook-pixel.html -%}
+  {% comment %} use for analytics if needed {% endcomment %}
   {%- endif %}
 
   <!-- mobile responsive meta -->
