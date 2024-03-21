@@ -57,7 +57,7 @@ google-analytics: G-KRGRNSZ5Y9 # add your identifier. For example UA-99631805-1.
 
 # jekyll-picture-tag plugin
 picture:
-  source: /
+  source: / # use non-relative paths for benefit of jekyll-seo-tag, which uses the `image` key to set the og:image meta tag
   # source: assets/img/_fullsize # using a folder starting with '_' will exclude it from being copied to the _site folder
 
 # Jekyll-seo-tag plugin
