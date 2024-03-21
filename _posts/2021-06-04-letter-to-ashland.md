@@ -2,7 +2,7 @@
 layout: post
 title: 'New Song - "Letter to Ashland"'
 date: 2021-06-04
-image: 'letter-to-ashland-cover.jpg'
+image: 'assets/img/letter-to-ashland-cover.jpg'
 tags: raps single 
 ---
 

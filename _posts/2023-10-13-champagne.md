@@ -1,6 +1,6 @@
 ---
 layout: post
-image: 'champagne-cover.jpg'
+image: 'assets/img/champagne-cover.jpg'
 tags: raps single
 title: New Song - "Champagne"
 description: Sometimes you gotta talk shit. And enlist the local senior female bocce ball team for a video.

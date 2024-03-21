@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: 'profile-pic-red.jpg'
+image: 'assets/img/profile-pic-red.jpg'
 image_alt: 'Dylan Hand in front of a bright red background wearing a blue jacket'
 ---
 

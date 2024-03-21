@@ -1,6 +1,6 @@
 ---
 layout: post
-image: 'rock-the-boat-cover.jpg'
+image: 'assets/img/rock-the-boat-cover.jpg'
 tags: raps single
 title: New Song - "Rock The Boat"
 description: An adventurous collab with SUNRAID

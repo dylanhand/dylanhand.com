@@ -1,5 +1,5 @@
 ---
 layout: index
 permalink: /
-image: '/assets/img/optimized/profile-pic.jpg'
+image: '/assets/img/profile-pic.jpg'
 ---
