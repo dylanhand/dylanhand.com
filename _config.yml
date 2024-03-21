@@ -2,7 +2,7 @@ title: Dylan Hand
 main-text: Dylan Hand
 subtitle:
 tagline: Official Site
-logo: &profile-pic '/assets/img/optimized/profile-pic.jpg'
+logo: &profile-pic '/assets/img/profile-pic.jpg'
 description: Official site of rapper Dylan Hand.
 # baseurl: "/yo" # the subpath of your site, e.g. /blog
 url: &url https://dylanhand.com
