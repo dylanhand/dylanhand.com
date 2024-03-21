@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'New Song - "Made It There"'
-image: 'made-it-there-cover.jpg'
+image: 'assets/img/made-it-there-cover.jpg'
 tags: raps single 
 ---
 

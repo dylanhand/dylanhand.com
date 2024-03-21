@@ -5,7 +5,7 @@ permalink: /fresh-eyes
 date: 2023-11-17
 title: Fresh Eyes by Dylan Hand
 description: you can feel it in the air right?
-image: fresh-eyes-cover.jpg
+image: assets/img/fresh-eyes-cover.jpg
 image_alt: 'Fresh Eyes cover art: Dylan Hand as a toddler looking up and to the right with his hand outstretched, wearing a pink turtleneck, overalls, orange and yellow beads, and plenty of food on his face.'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/fresh-eyes

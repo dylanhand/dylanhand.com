@@ -5,7 +5,7 @@ permalink: /why-not
 date: 2021-09-10
 title: Why Not by Dylan Hand
 description: hope u like lots of beat switches and crazy rap
-image: 'why-not-cover.jpg'
+image: 'assets/img/why-not-cover.jpg'
 image_alt: 'Why Not cover art: unsophisticated digital drawing of goat in front of flaming background'
 artists: Dylan Hand
 bandcamp: https://dylanhand.bandcamp.com/track/why-not

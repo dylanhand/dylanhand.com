@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'New Song - "Do The Kinja"'
-image: 'do-the-kinja-cover.jpg'
+image: 'assets/img/do-the-kinja-cover.jpg'
 tags: raps single 
 ---
 

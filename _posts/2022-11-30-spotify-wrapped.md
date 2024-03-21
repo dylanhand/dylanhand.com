@@ -1,13 +1,13 @@
 ---
 layout: post
-image:  'spotify-wrapped-2022-01.png'
+image: 'assets/img/spotify-wrapped-2022-01.png'
 tags: spotify-wrapped
-image_alt:  '2022 Spotify Wrapped stats for Dylan Hand'
+image_alt: '2022 Spotify Wrapped stats for Dylan Hand'
 title: Another Year Wrapped
 ---
 
-{% picture post spotify-wrapped-2022-02.png %}
-{% picture post spotify-wrapped-2022-03.png %}
+{% picture post assets/img/spotify-wrapped-2022-02.png %}
+{% picture post assets/img/spotify-wrapped-2022-03.png %}
 
 Thanks for rocking with me again this year. 
 
