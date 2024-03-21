@@ -4,7 +4,7 @@ title: "New Studio"
 date: 2020-11-08
 image: 'assets/img/studio/studio-close.jpg'
 image_alt: 'Picture of music studio with computer, speakers, and microphone'
-tags: raps studio
+tags: studio
 ---
 
 After many moons of wanting to, I finally did it. I’ve got a studio now.

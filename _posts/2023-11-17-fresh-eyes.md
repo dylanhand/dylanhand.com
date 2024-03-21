@@ -1,7 +1,7 @@
 ---
 layout: post
 image: 'assets/img/fresh-eyes-cover.jpg'
-tags: raps single
+tags: single
 title: New Song - "Fresh Eyes"
 description: You can feel it in the air right?
 ---
