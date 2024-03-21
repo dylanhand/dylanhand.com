@@ -1,0 +1,14 @@
+{% assign id=include.id %}
+<div id="youtube-content">
+    <p><a href="https://youtube.com/{{id}}">Watch the video</a></p>
+</div>
+<script>
+if(readCookie('cookie-notice-option') == 'true') {
+    const ytEmbed = '<iframe width="560" height="315" src="https://youtube.com/embed/{{id}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+    document.getElementById('youtube-content').innerHTML = ytEmbed;
+  } else if (readCookie('cookie-notice-option') == 'false'){
+    console.log("cookies disabled");
+  } else {
+    console.log("cookies neither enabled or disabled");
+  }
+</script>

@@ -9,4 +9,4 @@ tags:   raps freestyle
 
 Freestyle at [All My Friends Are Stars Music Festival](https://www.allmyfriendsarestars.com/).
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NWsypGJQH7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube-embed.html id="NWsypGJQH7o" %}

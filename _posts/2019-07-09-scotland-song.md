@@ -9,4 +9,4 @@ tags:   raps po-33 goat
 
 On the flight back from visiting one old and several new friends in Scotland, I took some audio samples from a lo-fi video of fireworks being set off and made a beat. Then rapped. Then said fuck it and made a video.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ihcdnJo4Ax4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube-embed.html id="ihcdnJo4Ax4" %}
