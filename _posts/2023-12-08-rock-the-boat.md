@@ -2,7 +2,7 @@
 layout: post
 image: 'assets/img/rock-the-boat-cover.jpg'
 tags: single
-title: New Song - "Rock The Boat"
+title: New Song - 'Rock The Boat'
 description: An adventurous collab with SUNRAID
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 image: 'assets/img/champagne-cover.jpg'
 tags: single
-title: New Song - "Champagne"
+title: New Song - 'Champagne'
 description: Sometimes you gotta talk shit. And enlist the local senior female bocce ball team for a video.
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 image: 'assets/img/fresh-eyes-cover.jpg'
 tags: single
-title: New Song - "Fresh Eyes"
+title: New Song - 'Fresh Eyes'
 description: You can feel it in the air right?
 ---
 

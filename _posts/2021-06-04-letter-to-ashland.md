@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'New Song - "Letter to Ashland"'
+title: New Song - 'Letter to Ashland'
 date: 2021-06-04
 image: 'assets/img/letter-to-ashland-cover.jpg'
 tags: single 
