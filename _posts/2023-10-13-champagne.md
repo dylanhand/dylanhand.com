@@ -1,6 +1,6 @@
 ---
 layout: post
-image: 'assets/img/champagne-cover.jpg'
+image: assets/img/champagne-cover.jpg
 tags: single
 title: New Song - 'Champagne'
 description: Sometimes you gotta talk shit. And enlist the local senior female bocce ball team for a video.
@@ -12,6 +12,6 @@ My new song [Champagne]({{ site.baseurl }}/champagne) is out now 🍾
 
 ### [🎧 Listen to Champagne]({{ site.baseurl }}/champagne)
 
-### [🎥  Watch the reel on Instagram](https://www.instagram.com/reel/CyVzR-9q7in/)
+### [🎥 Watch the reel on Instagram](https://www.instagram.com/reel/CyVzR-9q7in/)
 
-### [📄  Read the blurb](https://dylanhand.substack.com/p/champagne)
+### [📄 Read the blurb](https://dylanhand.substack.com/p/champagne)
