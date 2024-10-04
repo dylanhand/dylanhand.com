@@ -53,6 +53,7 @@ layout: default
     {% if page.deezer %}
       {% include song-link.html text="Deezer" link=page.deezer icon="deezer" %}
     {% endif %}
+    {% if content.size > 10 %}
     <div class="lyrics">
       <button id="lyrics__button" class="lyrics__button">
         Lyrics
@@ -74,4 +75,5 @@ layout: default
         } 
       });
     </script>
+    {% endif %}
 </div>
