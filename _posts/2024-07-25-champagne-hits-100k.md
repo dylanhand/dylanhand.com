@@ -1,6 +1,7 @@
 ---
 layout: post
 image: "assets/img/champagne-100k.jpg"
+image_alt: "Dylan Hand sitting in a chair drinking champagne with his pinky out like a classy gentleman"
 tags: milestone
 title: "'Champagne' hits 100,000 streams on Spotify"
 description: "Thanks for bumping the hell out of this one. 100k in less than a year is wild to me and very crack-a-bottle worthy. 🍾"

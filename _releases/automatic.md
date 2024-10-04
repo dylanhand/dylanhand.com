@@ -6,6 +6,7 @@ date: 2024-10-04
 title: Automatic by Dylan Hand
 description: Went from average to savage
 image: /assets/img/automatic-cover.jpg
+image_alt: 'Automatic cover art: Dylan Hand in front of a white background wearing a blue button up shirt covered in swans, holding a hair dryer in his right hand which is blowing his hair up.'
 artists: [Dylan Hand]
 bandcamp:
 spotify: https://open.spotify.com/track/0NkHiUZdCdkYI1ZvruAMTZ

@@ -1,6 +1,7 @@
 ---
 layout: post
 image: assets/img/10k-monthly-listeners.jpg
+image_alt: Screenshot of the Dylan Hand Spotify artist page showing 10k monthly listeners
 tags: milestone
 title: We just cracked 10,000 monthly listeners on Spotify
 description: Problems turns one year old and we hit 10k monthly listeners the same day.
