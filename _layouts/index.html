@@ -14,13 +14,9 @@ layout: default
         {% include social-icons.html %}
       </div>
       <p class="author__bio">
-        {% comment %}
         {% assign latest-song = site.releases | reverse | first %}
         Listen to the new single<br> <a href="{{site.url}}{{latest-song.permalink}}">'{{latest-song.name}}'</a>
         {{ site.baseurl }}
-        {% endcomment %}
-        <a href="https://distrokid.com/hyperfollow/dylanhand/automatic">Pre-save the new single 'Automatic' <br> coming
-          October 4th</a>
       </p>
     </div>
   </section>
