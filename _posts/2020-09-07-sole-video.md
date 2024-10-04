@@ -4,7 +4,7 @@ title: Music Video - 'Sole'
 date: 2020-09-07
 image: assets/img/fuckin-muffin.jpg
 image_alt: "Close up picture of Dylan Hand eating messy jelly sandwich"
-tags: raps
+tags:
 ---
 
 New video for 'Sole,' the song I did with [Rotaris](https://rotarismusic.com/). Dedicated to all you sickos out there.
