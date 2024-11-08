@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Video: Freestyle at All My Friends Are Stars Festival"
-date: 2021-08-07
 image: 'assets/img/amfas-freestyle.jpg'
 image_alt: 'Picture of Dylan Hand freestyling at All My Friends Are Stars Festival in Gothenburg'
 tags: freestyle

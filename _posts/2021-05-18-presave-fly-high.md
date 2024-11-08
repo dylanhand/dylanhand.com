@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "'Fly High' coming this Friday"
-date: 2021-05-18
 image: assets/img/fly-high-cover.jpg
 image_alt: "Fly High cover art: picture of bird drawn on post-it note in front of the fjords in Noraway"
 tags: single

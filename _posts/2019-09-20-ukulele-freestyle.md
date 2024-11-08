@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Video: Ukulele Freestyle"
-date: 2019-09-20
 image: 'assets/img/ukulele-freestyle.jpg'
 image_alt: 'Picture of Dylan Hand standing at microphone wearing headphones'
 tags: freestyle

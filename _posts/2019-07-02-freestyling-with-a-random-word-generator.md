@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Video: Freestyling with a random word generator"
-date: 2019-07-02
 image: 'assets/img/word-generator-freestyle.jpg'
 image_alt: 'Picture of Dylan Hand holding phone with random word generator app'
 tags: freestyle word-generator
