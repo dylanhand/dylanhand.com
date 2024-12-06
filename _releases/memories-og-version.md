@@ -8,10 +8,10 @@ description: The original version
 image: /assets/img/memories-cover.jpg
 image_alt: Black and white photo of Haley Johnsen and Dylan Hand holding color poloroid pictures of each other in front of a wooden background
 artists: [Dylan Hand, Haley Johnsen]
-bandcamp: 
+bandcamp: https://dylanhand.bandcamp.com/track/memories-feat-haley-johnsen-og-version
 spotify: https://open.spotify.com/track/5w9tnlDQKtVy5Pz0GVme0B
 apple-music: https://geo.music.apple.com/se/album/_/1779282548?i=1779282550&mt=1&app=music&ls=1&at=1000lHKX&ct=odesli_http&itscg=30200&itsct=odsl_m
-soundcloud: 
+soundcloud: https://soundcloud.com/dylanhand/memories-og
 youtube: https://youtu.be/xWYJ_hFFQrU?si=tjI5pgQnWgeIgp8I
 amazon-music: https://music.amazon.com/albums/B0DMP4YTLN?trackAsin=B0DMPC7788
 tidal: https://listen.tidal.com/track/398811193
