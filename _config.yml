@@ -48,10 +48,6 @@ contact:
     icon: youtube
 
 
-# Comment Section (Disqus)
-disqus-identifier: # mr-brown # add your shortname for Disqus Comment. For example mr-brown
-
-
 # Google Analytics
 google-analytics: G-KRGRNSZ5Y9 # add your identifier. For example UA-99631805-1.
 
