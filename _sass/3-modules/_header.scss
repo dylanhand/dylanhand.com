@@ -42,20 +42,6 @@
     }
   }
     .selected { 
-      // option 1
-      // color: $primary-color;
-
-      // option 2
-      // border-bottom: 0.1rem solid $dark;
-      // border-radius: 0;
-      // &:hover {
-      //   border-bottom: 0 solid $dark;
-      //   color: $dark;
-      //   border-radius: 3px;
-      //   color: $white;
-      // }
-
-      // option 3
       border: 2px solid $dark;
       &:hover {
         border: 2px solid $dark;
@@ -65,9 +51,6 @@
     }
 }
 
-// .main-nav__menu {
-  // note: width/height is embedded in the svg tag to avoid broken appearance when css doesn't load in time
-// }
 
 use.main-nav__menu {
   color: $dark;
