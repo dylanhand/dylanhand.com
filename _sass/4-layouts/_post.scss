@@ -27,11 +27,20 @@
 
 .post__image {
   margin-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 240px;
+  @media (max-width: $mobile) {
+    margin-bottom: 30px;
+    min-height: 200px;
+  }
   img {
     display: block;
+    max-width: 100%;
     max-height: 432px;
-    margin: auto;
-    object-fit: contain;
+    width: auto;
+    height: auto;
     border-style: solid;
     border-radius: $border-radius;
     border-width: 1px;
