@@ -62,7 +62,6 @@ use.main-nav__menu {
 /* Mobile Nav */
 .main-nav__open {
   position: absolute;
-  top: 2.52rem;
   right: 0;
   z-index: 10;
   font-size: $big-text-size;
@@ -79,7 +78,7 @@ use.main-nav__menu {
 
 .main-nav__close {
   position: fixed;
-  top: 2.25rem;
+  top: 26px;
   right: 30px;
   @media (max-width: $mobile) {
     right: 20px;
