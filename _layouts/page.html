@@ -6,7 +6,7 @@ layout: default
   <!-- begin page -->
   <article class="page">
 
-    <div class="page__head" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+    <div class="page__head" data-animate="fade-up">
       <h1 class="page__title">{{ page.title | escape }}</h1>
       {% if page.image %}
       <div class="page__image">
@@ -15,7 +15,7 @@ layout: default
       {% endif %}
     </div>
 
-    <div class="page__content" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
+    <div class="page__content" data-animate="fade-up" data-animate-delay="100">
     {{ content }}
     </div>
 

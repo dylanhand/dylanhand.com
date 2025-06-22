@@ -1,18 +1,18 @@
-document.addEventListener('DOMContentLoaded', function() {
-  'use strict';
+'use strict';
 
-  // Menu Elements
+function initializeApp() {
+  // Enable JS-dependent features
+  document.body.classList.add('js-enabled');
+  setupMenuNav();
+  setupScrollAnimations();
+  makeVideosResponsive();
+}
+
+function setupMenuNav() {
   const headerOverlay = document.querySelector('.header__overlay');
   const menuList = document.querySelector('.main-nav__box');
   const menuOpenIcon = document.querySelector('.main-nav__open');
   const menuCloseIcon = document.querySelector('.main-nav__close');
-
-  /* =======================
-  // Menu and Navigation
-  ======================= */
-  menuOpenIcon.addEventListener('click', menuOpen);
-  menuCloseIcon.addEventListener('click', menuClose);
-  headerOverlay.addEventListener('click', menuClose);
 
   function menuOpen() {
     menuList.classList.add('visible');
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     menuList.classList.add('hidden');
     headerOverlay.classList.add('hidden');
 
-    setTimeout(function() {
+    setTimeout(() => {
       menuList.classList.remove('hidden');
       headerOverlay.classList.remove('hidden');
     }, 320);
@@ -32,69 +32,112 @@ document.addEventListener('DOMContentLoaded', function() {
     headerOverlay.classList.remove('visible');
   }
 
-  /* ================================
-  // AOS - Animate On Scroll Library
-  ================================ */
-  AOS.init();
+  menuOpenIcon.addEventListener('click', menuOpen);
+  menuCloseIcon.addEventListener('click', menuClose);
+  headerOverlay.addEventListener('click', menuClose);
+}
 
-  /* =======================
-  // Responsive Videos
-  ======================= */
-  function makeVideosResponsive() {
-    const selectors = [
-      'iframe[src*="player.vimeo.com"]',
-      'iframe[src*="youtube.com"]',
-      'iframe[src*="youtube-nocookie.com"]',
-      'iframe[src*="kickstarter.com"][src*="video.html"]',
-      'iframe[src*="ted.com"]',
-      'object',
-      'embed'
-    ];
+function setupScrollAnimations() {
+  const ANIMATE_CLASS = 'animate';
 
-    const contentAreas = document.querySelectorAll('.post__content, .page__content');
-    
-    contentAreas.forEach(area => {
-      const videos = area.querySelectorAll(selectors.join(','));
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      const rect = entry.boundingClientRect;
       
-      videos.forEach(video => {
-        if (video.tagName.toLowerCase() === 'embed' && video.parentNode.tagName.toLowerCase() === 'object') {
-          return;
-        }
-
-        if (video.parentNode.className === 'fluid-width-video-wrapper') {
-          return;
-        }
-
-        // Get dimensions
-        let width = parseInt(video.getAttribute('width'), 10) || video.clientWidth;
-        let height = parseInt(video.getAttribute('height'), 10) || video.clientHeight;
-        const aspectRatio = height / width;
-
-        // Create wrapper
-        const wrapper = document.createElement('div');
-        wrapper.className = 'fluid-width-video-wrapper';
-        wrapper.style.paddingTop = (aspectRatio * 100) + '%';
-
-        // Insert wrapper
-        video.parentNode.insertBefore(wrapper, video);
-        wrapper.appendChild(video);
-
-        // Remove original dims
-        video.removeAttribute('height');
-        video.removeAttribute('width');
-      });
+      if (entry.isIntersecting) {
+        entry.target.classList.add(ANIMATE_CLASS);
+      } else if (rect.top >= 0) {
+        // Only remove animation if element is leaving through bottom
+        // Keep animated if element scrolled off the top
+        entry.target.classList.remove(ANIMATE_CLASS);
+      }
     });
-  }
+  }, observerOptions);
 
-  // Add responsive video styles if not already present
+  // Set up animations for all elements
+  document.querySelectorAll('[data-animate]').forEach(element => {
+    observer.observe(element);
+    
+    if (isElementInView(element)) {
+      element.classList.add(ANIMATE_CLASS);
+    }
+  });
+
+  function isElementInView(element) {
+    const rect = element.getBoundingClientRect();
+    return rect.top < window.innerHeight && rect.bottom > 0;
+  }
+}
+
+function makeVideosResponsive() {
+  const selectors = [
+    'iframe[src*="player.vimeo.com"]',
+    'iframe[src*="youtube.com"]',
+    'iframe[src*="youtube-nocookie.com"]',
+    'iframe[src*="kickstarter.com"][src*="video.html"]',
+    'iframe[src*="ted.com"]',
+    "object",
+    "embed",
+  ];
+
+  const contentAreas = document.querySelectorAll(
+    ".post__content, .page__content"
+  );
+
+  contentAreas.forEach((area) => {
+    const videos = area.querySelectorAll(selectors.join(","));
+
+    videos.forEach((video) => {
+      if (
+        video.tagName.toLowerCase() === "embed" &&
+        video.parentNode.tagName.toLowerCase() === "object"
+      ) {
+        return;
+      }
+
+      if (video.parentNode.className === "fluid-width-video-wrapper") {
+        return;
+      }
+
+      // Get dimensions
+      let width =
+        parseInt(video.getAttribute("width"), 10) || video.clientWidth;
+      let height =
+        parseInt(video.getAttribute("height"), 10) || video.clientHeight;
+      const aspectRatio = height / width;
+
+      // Create wrapper
+      const wrapper = document.createElement("div");
+      wrapper.className = "fluid-width-video-wrapper";
+      wrapper.style.paddingTop = aspectRatio * 100 + "%";
+
+      // Insert wrapper
+      video.parentNode.insertBefore(wrapper, video);
+      wrapper.appendChild(video);
+
+      // Remove fixed dimensions
+      video.removeAttribute("height");
+      video.removeAttribute("width");
+    });
+  });
+
+  // Add CSS for responsive videos
   if (!document.getElementById('fit-vids-style')) {
-    const head = document.head || document.getElementsByTagName('head')[0];
-    const css = '.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}';
     const style = document.createElement('style');
     style.id = 'fit-vids-style';
-    style.textContent = css;
-    head.appendChild(style);
+    style.textContent = '.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}';
+    document.head.appendChild(style);
   }
+}
 
-  makeVideosResponsive();
-});
+// Initialize when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeApp);
+} else {
+  initializeApp();
+}
