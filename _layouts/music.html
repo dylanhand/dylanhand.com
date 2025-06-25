@@ -6,12 +6,12 @@ layout: default
   <!-- begin music -->
   <article class="page">
 
-    <div class="page__head" data-animate="fade-up">
+    <div class="page__head">
       <h1 class="page__title">{{ page.title | escape }}</h1>
       <div class="music__grid">
       {% assign reversed-songs = site.releases | reverse %}
       {% for song in reversed-songs %}
-        <div class="music__release">
+        <div class="music__release" data-animate="fade-up">
             <a href="{{ song.permalink }}">
               {%- if song.image %}
                 <div class="release__image__container">
@@ -42,7 +42,7 @@ layout: default
       </div>
     </div>
 
-    <div class="page__content" data-animate="fade-up" data-animate-delay="100">
+    <div class="page__content">
     {{ content }}
     </div>
 
