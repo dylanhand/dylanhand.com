@@ -13,12 +13,3 @@
 .js-enabled [data-animate="fade-up"] {
   transform: translateY(60px);
 }
-
-.js-enabled [data-animate="fade"] {
-  transform: none;
-}
-
-/* Delay variants */
-.js-enabled [data-animate-delay="100"] {
-  transition-delay: 0.1s;
-}
