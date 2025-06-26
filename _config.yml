@@ -86,6 +86,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll_picture_tag
+  - jekyll-minifier
+
+jekyll-minifier:
+  uglifier_args:
+    harmony: true
 
 # Pages Path
 defaults:
