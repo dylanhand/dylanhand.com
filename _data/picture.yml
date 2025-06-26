@@ -19,7 +19,7 @@ presets:
     base_width: 160 # How wide the 1x image should be.
     fallback_width: 160
     size: 160px
-    pixel_ratios: [1, 1.5, 2]
+    pixel_ratios: [1, 1.5, 2, 3]
     quality: *quality
     format_quality:
       webp: *webp-quality
