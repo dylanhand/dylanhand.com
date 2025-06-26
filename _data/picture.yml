@@ -51,7 +51,7 @@ presets:
     
   release:
     formats: [webp, original]
-    widths: [240, 300, 340]
+    widths: [240, 300, 340, 480, 600, 680, 720, 900, 1020] # @2x @3x for mobile and tablet, and @2x for desktop
     sizes:
       mobile: 240px
       tablet: 300px
