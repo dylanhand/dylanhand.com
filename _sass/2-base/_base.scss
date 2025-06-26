@@ -117,6 +117,7 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+  color: transparent; // Hides image alt text in Firefox
   &+em {
     text-align: center;
     display: block;
