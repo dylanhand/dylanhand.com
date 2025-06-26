@@ -39,10 +39,10 @@
     max-height: 432px;
     width: auto;
     height: auto;
-    border-style: solid;
     border-radius: $border-radius;
-    border-width: 1px;
-    border-color: $gray-lighten;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: $gray-lighten;
   }
 }
 

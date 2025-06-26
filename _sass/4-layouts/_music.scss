@@ -20,12 +20,9 @@
   height: 0;
   margin-bottom: 1.5rem;
   border-radius: $border-radius;
-  img {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: $border-radius;
-    border-color: $gray-lighten;
-  }
+  outline-width: 1px;
+  outline-color: $gray-lighten;
+  outline-style: solid;
 }
 
 .music__release__image { 
