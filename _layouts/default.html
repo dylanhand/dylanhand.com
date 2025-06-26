@@ -20,6 +20,7 @@ image: '/assets/img/profile-pic.jpg'
   {% include footer.html %}
 
   <!-- begin js -->
+  <script>0</script> <!-- Hack to prevent Firefox from forcing a layout before CSS is loaded https://stackoverflow.com/questions/21147149/flash-of-unstyled-content-fouc-in-firefox-only-is-ff-slow-renderer -->
   <script async defer src="{{ site.baseurl }}/assets/js/main.js"></script>
   <!-- end js -->
 </body>
