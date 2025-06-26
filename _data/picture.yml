@@ -27,7 +27,7 @@ presets:
       jp2: *jp2-quality
     strip_metadata: false # fixes bad colors for pics from photographer
     attributes:
-      img: 'width="160" height="160"'
+      img: 'width="160" height="160" fetchpriority="high"'
 
   thumbnail:
     formats: [webp, original]
@@ -71,7 +71,7 @@ presets:
       avif: *avif-quality
       jp2: *jp2-quality
     attributes:
-      img: 'width="340" height="340"'
+      img: 'width="340" height="340" fetchpriority="high"'
     
   post:
     formats: [webp, original]
@@ -83,7 +83,7 @@ presets:
       avif: *avif-quality
       jp2: *jp2-quality
     attributes:
-      img: 'width="640" height="640"'
+      img: 'width="640" height="640" fetchpriority="high"'
 
   page:
     formats: [webp, original]
@@ -95,5 +95,5 @@ presets:
       avif: *avif-quality
       jp2: *jp2-quality
     attributes:
-      img: 'width="640" height="640"'
+      img: 'width="640" height="640" fetchpriority="high"'
     strip_metadata: false # fixes bad colors for pics from photographer
