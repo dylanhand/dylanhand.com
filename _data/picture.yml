@@ -1,6 +1,7 @@
 media_queries:
     mobile: 'max-width: 576px'
     tablet: 'max-width: 768px'
+    desktop: 'min-width: 769px'
 
 presets:
   default:
@@ -50,8 +51,13 @@ presets:
     
   release:
     formats: [webp, original]
-    widths: [340, 510, 680]
+    widths: [240, 300, 340]
+    sizes:
+      mobile: 240px
+      tablet: 300px
+      desktop: 340px
     size: 340px
+    fallback_width: 340
     quality: *quality
     format_quality:
       webp: *webp-quality

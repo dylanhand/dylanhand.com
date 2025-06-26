@@ -44,13 +44,16 @@
   margin-bottom: 1.5rem;
   border-radius: $border-radius;
   overflow: hidden;
-  width: 60vw;
-  max-width: 340px;
-  img {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: $border-radius;
-    border-color: $gray-lighten;
+  border-radius: $border-radius;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: $gray-lighten;
+  width: 340px;
+  @media (max-width: $tablet) {
+    width: 300px;
+  }
+  @media (max-width: $mobile) {
+    width: 240px;
   }
 }
 
