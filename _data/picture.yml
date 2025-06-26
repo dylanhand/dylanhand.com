@@ -42,13 +42,19 @@ presets:
     
   release_grid:
     formats: [webp, original]
-    widths: [252, 378, 504, 290, 435, 580]
+    widths: [160, 320, 480, 290, 580, 870] # @2x and @3x
     sizes:
-      mobile: 252px
+      mobile: 160px # Responsive so this won't be perfect for all phones. This is the size for iPhone 12 Pro in Chrome inspector.
       tablet: 290px
-    dimension_attributes: true
+      desktop: 290px
+    fallback_width: 290
+    quality: *quality
+    format_quality:
+      webp: *webp-quality
+      avif: *avif-quality
+      jp2: *jp2-quality
     attributes:
-      img: 'loading="lazy"'
+      img: 'width="290" height="290" loading="lazy"'
     
   release:
     formats: [webp, original]
