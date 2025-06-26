@@ -31,13 +31,14 @@ presets:
 
   thumbnail:
     formats: [webp, original]
-    widths: [70, 100, 105, 140, 150, 200]
+    widths: [70, 100, 140, 200, 210] # @2x @3x for mobile and tablet, and @2x for desktop
     sizes:
       mobile: 70px
       tablet: 100px
-    dimension_attributes: true
+      desktop: 100px
+    fallback_width: 100
     attributes:
-      img: 'loading="lazy"'
+      img: 'width="100" height="100" loading="lazy"'
     
   release_grid:
     formats: [webp, original]
