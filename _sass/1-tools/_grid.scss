@@ -1,6 +1,7 @@
 $desktop: 992px;
 $tablet: 768px;
 $mobile: 576px;
+$smol: 350px;
 
 .container {
   max-width: 700px;
@@ -11,11 +12,12 @@ $mobile: 576px;
 }
 
 .container, .container-full {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0 30px;
   margin: 0 auto;
   @media (max-width: $mobile) {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0 20px;
+  }
+  @media (max-width: $smol) {
+    padding: 0 15px;
   }
 }

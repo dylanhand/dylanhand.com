@@ -12,25 +12,13 @@
     </a>
 
     <nav class="main-nav">
-      <span class="main-nav__open">
-        <svg class="main-nav__menu" style="width: 22px; height: 22px">
-          <use class="main-nav__menu" href="#icon-menu"></use>
-        </svg>
-      </span>
-      <div class="main-nav__box header__overlay">
-        <span class="main-nav__close">
-          <svg class="main-nav__menu" style="width: 22px; height: 22px">
-            <use class="main-nav__menu" href="#icon-close"></use>
-          </svg>
-        </span>
-        <ul class="nav__list list-reset">
-          {%- for item in site.data.navigation %}
-            <li class="nav__item">
-              <a href="{{ item.link }}" class="nav__link {% if page.url == item.link -%} selected {%- endif -%}">{{ item.name }}</a>
-            </li>
-          {%- endfor %}
-        </ul>
-      </div>
+      <ul class="nav__list list-reset">
+        {%- for item in site.data.navigation %}
+          <li class="nav__item">
+            <a href="{{ item.link }}" class="nav__link {% if page.url == item.link -%} selected {%- endif -%}">{{ item.name }}</a>
+          </li>
+        {%- endfor %}
+      </ul>
     </nav>
 
   </header>

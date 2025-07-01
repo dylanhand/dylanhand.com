@@ -3,38 +3,8 @@
 function initializeApp() {
   // Enable JS-dependent features
   document.body.classList.add('js-enabled');
-  setupMenuNav();
   setupScrollAnimations();
   makeVideosResponsive();
-}
-
-function setupMenuNav() {
-  const headerOverlay = document.querySelector('.header__overlay');
-  const menuList = document.querySelector('.main-nav__box');
-  const menuOpenIcon = document.querySelector('.main-nav__open');
-  const menuCloseIcon = document.querySelector('.main-nav__close');
-
-  function menuOpen() {
-    menuList.classList.add('visible');
-    headerOverlay.classList.add('visible');
-  }
-
-  function menuClose() {
-    menuList.classList.add('hidden');
-    headerOverlay.classList.add('hidden');
-
-    setTimeout(() => {
-      menuList.classList.remove('hidden');
-      headerOverlay.classList.remove('hidden');
-    }, 320);
-
-    menuList.classList.remove('visible');
-    headerOverlay.classList.remove('visible');
-  }
-
-  menuOpenIcon.addEventListener('click', menuOpen);
-  menuCloseIcon.addEventListener('click', menuClose);
-  headerOverlay.addEventListener('click', menuClose);
 }
 
 function setupScrollAnimations() {
