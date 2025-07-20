@@ -6,7 +6,7 @@ media_queries:
 presets:
   default:
     # formats: [avif, webp, jp2, original]
-    formats: [webp, original]
+    formats: [avif, webp]
     quality: &quality 80
     format_quality:
       webp: &webp-quality 80
@@ -15,7 +15,7 @@ presets:
 
   profile:
     # formats: [avif, webp, jp2, original]
-    formats: [webp, original]
+    formats: [avif, webp]
     base_width: 160 # How wide the 1x image should be.
     fallback_width: 160
     size: 160px
@@ -30,7 +30,7 @@ presets:
       img: 'width="160" height="160" fetchpriority="high"'
 
   thumbnail:
-    formats: [webp, original]
+    formats: [avif, webp]
     widths: [70, 100, 140, 200, 210] # @2x @3x for mobile and tablet, and @2x for desktop
     sizes:
       mobile: 70px
@@ -41,7 +41,7 @@ presets:
       img: 'width="100" height="100" loading="lazy"'
     
   release_grid:
-    formats: [webp, original]
+    formats: [avif, webp]
     widths: [160, 320, 480, 290, 580, 870] # @2x and @3x
     sizes:
       mobile: 160px # Responsive so this won't be perfect for all phones. This is the size for iPhone 12 Pro in Chrome inspector.
@@ -57,7 +57,7 @@ presets:
       img: 'width="290" height="290" loading="lazy"'
     
   release:
-    formats: [webp, original]
+    formats: [avif, webp]
     widths: [240, 300, 340, 480, 600, 680, 720, 900, 1020] # @2x @3x for mobile and tablet, and @2x for desktop
     sizes:
       mobile: 240px
@@ -74,7 +74,7 @@ presets:
       img: 'width="340" height="340" fetchpriority="high"'
     
   post:
-    formats: [webp, original]
+    formats: [avif, webp]
     widths: [640, 960, 1280]
     size: 640px
     quality: *quality
@@ -86,7 +86,7 @@ presets:
       img: 'width="640" height="640" fetchpriority="high"'
 
   page:
-    formats: [webp, original]
+    formats: [avif, webp]
     widths: [640, 960, 1280]
     size: 640px
     quality: *quality
