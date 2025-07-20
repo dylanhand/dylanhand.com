@@ -52,20 +52,24 @@ img {
   }
 }
 
+.article__link {
+  display: block;
+  color: inherit;
+
+  &:hover .read-more {
+    color: $dark;
+  }
+}
+
 .article__title {
   display: inline-block;
   margin: 0;
   margin-right: 12px;
   line-height: 1.8rem;
-  margin-top: -8px; // System font on iOS has internal padding at the top. This lines it up with the image
-  a {
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: $dark;
-    &:hover {
-      color: $primary-color;
-    }
-  }
+  margin-top: -8px; // System font on iOS has inteRnal padding at the top. This lines it up with the ime
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: $dark;
   @media (max-width: $mobile) {
     margin-bottom: 0.3rem;
   }
@@ -99,4 +103,5 @@ img {
   text-decoration: none;
   color: $gray-dark;
   white-space: nowrap;
+  transition: color 0.2s;
 }

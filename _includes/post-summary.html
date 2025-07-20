@@ -1,26 +1,28 @@
-<div class="article" data-animate="fade-up">
-  {% if post.image %}
-  {% include image-alt.html page=post %}
-  <div class="article__image-box">
-    <a href="{{post.url | prepend: site.baseurl}}" class="article__image">
-      {% picture thumbnail {{post.image}} --alt {{image_alt}} %}
-    </a>
-  </div>
-  {% endif %}
-  <div class="article__content">
-    <div class="article__title__container">
-      <h2 class="article__title">
-        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
-      </h2>
-      <div class="article__meta">
-        <span class="article__date">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time>
-        </span>
+<a class="article__link" href="{{post.url | prepend: site.baseurl }}">
+  <div class="article" data-animate="fade-up">
+    {% if post.image %}
+    {% include image-alt.html page=post %}
+    <div class="article__image-box">
+      <div class="article__image">
+        {% picture thumbnail {{post.image}} --alt {{image_alt}} %}
       </div>
     </div>
-    <p class="article__excerpt">
-      {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">MORE ></a>
-    </p>
+    {% endif %}
+    <div class="article__content">
+      <div class="article__title__container">
+        <h2 class="article__title">
+          {{post.title}}
+        </h2>
+        <div class="article__meta">
+          <span class="article__date">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time>
+          </span>
+        </div>
+      </div>
+      <p class="article__excerpt">
+        {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}
+        <span class="read-more">MORE ></span>
+      </p>
+    </div>
   </div>
-</div>
+</a>
